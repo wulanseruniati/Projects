@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.sourcelink.json
+D:\Bootcamp10\Projects\Kelas\bin\Debug\net8.0\Kelas.exe
+D:\Bootcamp10\Projects\Kelas\bin\Debug\net8.0\Kelas.deps.json
+D:\Bootcamp10\Projects\Kelas\bin\Debug\net8.0\Kelas.runtimeconfig.json
+D:\Bootcamp10\Projects\Kelas\bin\Debug\net8.0\Kelas.dll
+D:\Bootcamp10\Projects\Kelas\bin\Debug\net8.0\Kelas.pdb
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.dll
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\refint\Kelas.dll
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.pdb
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\Kelas.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Kelas\obj\Debug\net8.0\ref\Kelas.dll
