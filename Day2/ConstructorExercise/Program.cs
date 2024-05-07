@@ -16,6 +16,6 @@ internal class Program
         raceCar2.startingEngine();
         //calling the method of two parameters
         double timeNeeded2 = raceCar1.returnTimeNeeded(120.0, true);
-        Console.WriteLine("Time needed for " + raceCar2.brand + " : " + timeNeeded2 + " hour");
+        Console.WriteLine("When it rains, time needed for " + raceCar2.brand + " : " + timeNeeded2 + " hour");
     }
 }
