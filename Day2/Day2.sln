@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExercise", "ConstructorExercise\ConstructorExercise.csproj", "{D83FD0FA-D35D-47AA-8F1A-272DC5A9D3CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorExample", "ConstructorExample\ConstructorExample.csproj", "{D77B2C71-E441-4087-9DCB-F47BA3FD120B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstructorOverload", "ConstructorOverload\ConstructorOverload.csproj", "{C0E4CFDD-734D-429A-AAAE-8D8E6F7EE194}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{D83FD0FA-D35D-47AA-8F1A-272DC5A9D3CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D83FD0FA-D35D-47AA-8F1A-272DC5A9D3CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D83FD0FA-D35D-47AA-8F1A-272DC5A9D3CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D77B2C71-E441-4087-9DCB-F47BA3FD120B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D77B2C71-E441-4087-9DCB-F47BA3FD120B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D77B2C71-E441-4087-9DCB-F47BA3FD120B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D77B2C71-E441-4087-9DCB-F47BA3FD120B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0E4CFDD-734D-429A-AAAE-8D8E6F7EE194}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0E4CFDD-734D-429A-AAAE-8D8E6F7EE194}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0E4CFDD-734D-429A-AAAE-8D8E6F7EE194}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0E4CFDD-734D-429A-AAAE-8D8E6F7EE194}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
