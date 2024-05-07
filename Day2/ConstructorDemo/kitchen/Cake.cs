@@ -1,9 +1,9 @@
 namespace kitchen;
 public class Cake {
-    public string floorType;
+    public string flourType;
 
-    public Cake()
+    public Cake(string flourType)
     {
-        
+        this.flourType = flourType;
     }
 }
