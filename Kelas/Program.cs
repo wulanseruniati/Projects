@@ -21,7 +21,7 @@ class Program()
 
         //run method3
         double bmi = beruang1.CalculateBMI();
-        Console.WriteLine("BMI beruangnya " + bmi);
+        Console.WriteLine("BMI of the bear " + bmi);
 
         //run method4
         beruang1.Swimming();

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Kelas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d91712d3a2b4a327c612b375566375146c47f1ec")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54926d05dee3bc47d1ec6657ccf63b6f875fdb66")]
 [assembly: System.Reflection.AssemblyProductAttribute("Kelas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Kelas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
