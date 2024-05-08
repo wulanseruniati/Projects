@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExercise", "Interf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataTypeDemo", "DataTypeDemo\DataTypeDemo.csproj", "{35B95335-8179-4463-A3EF-22CF09DE6436}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticDemo", "StaticDemo\StaticDemo.csproj", "{B48BA51E-364F-47EF-A5AE-CAD068DC24E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticExercise", "StaticExercise\StaticExercise.csproj", "{D8DEC6CC-9644-465C-BB28-6C44EC5732E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,5 +58,13 @@ Global
 		{35B95335-8179-4463-A3EF-22CF09DE6436}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35B95335-8179-4463-A3EF-22CF09DE6436}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35B95335-8179-4463-A3EF-22CF09DE6436}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48BA51E-364F-47EF-A5AE-CAD068DC24E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48BA51E-364F-47EF-A5AE-CAD068DC24E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48BA51E-364F-47EF-A5AE-CAD068DC24E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48BA51E-364F-47EF-A5AE-CAD068DC24E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8DEC6CC-9644-465C-BB28-6C44EC5732E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8DEC6CC-9644-465C-BB28-6C44EC5732E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8DEC6CC-9644-465C-BB28-6C44EC5732E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8DEC6CC-9644-465C-BB28-6C44EC5732E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

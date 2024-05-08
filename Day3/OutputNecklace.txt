@@ -1,0 +1,2 @@
+The necklace id 1 stands for Necklace 1
+The necklace id 2 stands for Necklace 2

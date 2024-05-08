@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OverrideDemo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+869951711d7f3cbb29f1738bc4f1b841e42c1608")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33f5d5b3e57ea8c04355086af2ec715990c77c1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("OverrideDemo")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OverrideDemo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
