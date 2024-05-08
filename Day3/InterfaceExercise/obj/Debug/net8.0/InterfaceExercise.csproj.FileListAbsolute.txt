@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.sourcelink.json
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\bin\Debug\net8.0\InterfaceExercise.exe
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\bin\Debug\net8.0\InterfaceExercise.deps.json
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\bin\Debug\net8.0\InterfaceExercise.runtimeconfig.json
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\bin\Debug\net8.0\InterfaceExercise.dll
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\bin\Debug\net8.0\InterfaceExercise.pdb
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.dll
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\refint\InterfaceExercise.dll
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.pdb
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\InterfaceExercise.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day3\InterfaceExercise\obj\Debug\net8.0\ref\InterfaceExercise.dll
