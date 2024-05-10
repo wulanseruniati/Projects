@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.sourcelink.json
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\bin\Debug\net8.0\GenericsDemo1.exe
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\bin\Debug\net8.0\GenericsDemo1.deps.json
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\bin\Debug\net8.0\GenericsDemo1.runtimeconfig.json
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\bin\Debug\net8.0\GenericsDemo1.dll
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\bin\Debug\net8.0\GenericsDemo1.pdb
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.dll
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\refint\GenericsDemo1.dll
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.pdb
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\GenericsDemo1.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day4\GenericsDemo1\obj\Debug\net8.0\ref\GenericsDemo1.dll

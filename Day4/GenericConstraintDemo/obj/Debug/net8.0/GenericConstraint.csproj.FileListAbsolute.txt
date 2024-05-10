@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.sourcelink.json
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\bin\Debug\net8.0\GenericConstraint.exe
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\bin\Debug\net8.0\GenericConstraint.deps.json
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\bin\Debug\net8.0\GenericConstraint.runtimeconfig.json
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\bin\Debug\net8.0\GenericConstraint.dll
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\bin\Debug\net8.0\GenericConstraint.pdb
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.dll
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\refint\GenericConstraint.dll
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.pdb
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\GenericConstraint.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day4\GenericConstraintDemo\obj\Debug\net8.0\ref\GenericConstraint.dll
