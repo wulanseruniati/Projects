@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.sourcelink.json
+D:\Bootcamp10\Projects\Day5\DelegateExercise\bin\Debug\net8.0\DelegateExercise.exe
+D:\Bootcamp10\Projects\Day5\DelegateExercise\bin\Debug\net8.0\DelegateExercise.deps.json
+D:\Bootcamp10\Projects\Day5\DelegateExercise\bin\Debug\net8.0\DelegateExercise.runtimeconfig.json
+D:\Bootcamp10\Projects\Day5\DelegateExercise\bin\Debug\net8.0\DelegateExercise.dll
+D:\Bootcamp10\Projects\Day5\DelegateExercise\bin\Debug\net8.0\DelegateExercise.pdb
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.dll
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\refint\DelegateExercise.dll
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.pdb
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\DelegateExercise.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day5\DelegateExercise\obj\Debug\net8.0\ref\DelegateExercise.dll

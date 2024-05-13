@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\bin\Debug\net8.0\DelegateDemo1.exe
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\bin\Debug\net8.0\DelegateDemo1.deps.json
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\bin\Debug\net8.0\DelegateDemo1.runtimeconfig.json
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\bin\Debug\net8.0\DelegateDemo1.dll
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\bin\Debug\net8.0\DelegateDemo1.pdb
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.sourcelink.json
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.dll
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\refint\DelegateDemo1.dll
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.pdb
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\DelegateDemo1.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day5\DelegateDemo1\obj\Debug\net8.0\ref\DelegateDemo1.dll
