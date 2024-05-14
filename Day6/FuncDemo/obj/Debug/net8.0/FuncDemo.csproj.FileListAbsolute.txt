@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day6\FuncDemo\bin\Debug\net8.0\FuncDemo.exe
+D:\Bootcamp10\Projects\Day6\FuncDemo\bin\Debug\net8.0\FuncDemo.deps.json
+D:\Bootcamp10\Projects\Day6\FuncDemo\bin\Debug\net8.0\FuncDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day6\FuncDemo\bin\Debug\net8.0\FuncDemo.dll
+D:\Bootcamp10\Projects\Day6\FuncDemo\bin\Debug\net8.0\FuncDemo.pdb
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.dll
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\refint\FuncDemo.dll
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.pdb
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\FuncDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day6\FuncDemo\obj\Debug\net8.0\ref\FuncDemo.dll

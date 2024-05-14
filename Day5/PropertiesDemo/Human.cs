@@ -9,15 +9,15 @@ public class Human
     private int _balance;
     public int Balance
     {
-        get { return this._balance; }
+        get { return _balance; }
         set
         {
-            if (value < 0)
+            if (value > 0 && value <= 10000000)
             {
-                System.Console.WriteLine("Low Balance! Jangan ngutang");
+                _balance = value;
             }
             else {
-                this._balance = value;
+                System.Console.WriteLine("Balance value is not allowed. Balance remains unchanged");
             }
         }
     }
