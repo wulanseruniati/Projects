@@ -1,16 +1,19 @@
-public class PrintFoobar : IPrint<string> {
-    public void InlinePrintQueue(Queue<string> collection) {        
+public class PrintFoobar : IPrint<string>
+{
+    Action<string> InlinePrint = (tobePrinted) => tobePrinted.WriteDump();
+    public void InlinePrintQueue(Queue<string> collection)
+    {
         //action to print queue's value
-        Action<string> InlinePrint = (tobePrinted) => tobePrinted.WriteDump();
         int urutan = 0;
-        foreach(string number in collection)
+        foreach (string number in collection)
         {
-            if(urutan == collection.Count-1)
+            if (urutan == collection.Count - 1)
             {
                 //end of queue, no need comma
                 InlinePrint(number);
             }
-            else {
+            else
+            {
                 //needs comma to separate value
                 InlinePrint(number + ",");
             }
