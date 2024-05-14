@@ -8,7 +8,7 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Batch 10\\.nuget\\packages\\": {}
+    "C:\\Users\\linwu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "D:\\Bootcamp10\\Projects\\Foobar\\FooBar\\FooBar.csproj",
       "projectName": "FooBar",
       "projectPath": "D:\\Bootcamp10\\Projects\\Foobar\\FooBar\\FooBar.csproj",
-      "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\linwu\\.nuget\\packages\\",
       "outputPath": "D:\\Bootcamp10\\Projects\\Foobar\\FooBar\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\linwu\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"

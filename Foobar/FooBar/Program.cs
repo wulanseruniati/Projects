@@ -2,17 +2,29 @@
 {
     private static void Main(string[] args)
     {
-        System.Console.WriteLine("Please input a number: ");
+        System.Console.WriteLine("Please input a positive whole number: ");
         //get user input
-        int.TryParse(Console.ReadLine(),out int inputN);
-        //instantiate Foobar
-        Foobar foobar = new(inputN);
-        //create an action to populate queue        
-
-        //print the queue
-        foreach(string urutan in foobar.queue)
+        var userInput = Console.ReadLine();
+        //checking user input. only run the program if the input is int > 0. otherwise display error
+        if (int.TryParse(userInput, out int inputN))
         {
-            System.Console.Write(urutan + ",");
+            if (inputN < 0)
+            {
+                System.Console.WriteLine("Please input a whole number greater than zero");
+            }
+            else
+            {
+                //instantiate Foobar
+                Foobar foobar = new(inputN);
+
+                //print the queue using object from class PrintFoobar
+                PrintFoobar printFoobar = new();
+                printFoobar.InlinePrintQueue(foobar.queue);
+            }
+        }
+        else
+        {
+            System.Console.WriteLine("Please input a valid positive whole number");
         }
     }
 }

@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\Bootcamp10\\Projects\\Foobar\\Foobar\\FooBar.csproj",
         "projectName": "FooBar",
         "projectPath": "D:\\Bootcamp10\\Projects\\Foobar\\Foobar\\FooBar.csproj",
-        "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\linwu\\.nuget\\packages\\",
         "outputPath": "D:\\Bootcamp10\\Projects\\Foobar\\Foobar\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\linwu\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
