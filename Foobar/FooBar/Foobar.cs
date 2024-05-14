@@ -1,11 +1,15 @@
 public class Foobar
 {
     public int CountNumber { get; private set; } //the number from user's input
-    public Queue<string> queue { get; private set; } //the queue to be printed
+    public Queue<string>? queue { get; private set; } //the queue to be printed
 
     public Foobar(int countNumber)
     {
         CountNumber = countNumber;
+        PopulateQueue();
+    }
+
+    public void PopulateQueue() {        
         queue = new Queue<string>();
         //action to populate queue
         Action<string> populateQueue = (number) => queue.Enqueue(number);

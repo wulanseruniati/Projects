@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        System.Console.WriteLine("Please input a positive whole number: ");
+        "Please input a positive whole number: ".Dump();
         //get user input
         var userInput = Console.ReadLine();
         //checking user input. only run the program if the input is int > 0. otherwise display error
@@ -10,7 +10,7 @@
         {
             if (inputN < 0)
             {
-                System.Console.WriteLine("Please input a whole number greater than zero");
+                "Please input a whole number greater than zero".Dump();
             }
             else
             {
@@ -19,12 +19,13 @@
 
                 //print the queue using object from class PrintFoobar
                 PrintFoobar printFoobar = new();
-                printFoobar.InlinePrintQueue(foobar.queue);
+                if(foobar.queue != null)
+                    printFoobar.InlinePrintQueue(foobar.queue);
             }
         }
         else
         {
-            System.Console.WriteLine("Please input a valid positive whole number");
+            "Please input a valid positive whole number".Dump();
         }
     }
 }

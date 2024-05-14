@@ -1,7 +1,7 @@
 public class PrintFoobar : IPrint<string> {
     public void InlinePrintQueue(Queue<string> collection) {        
         //action to print queue's value
-        Action<string> InlinePrint = (tobePrinted) => System.Console.Write(tobePrinted);
+        Action<string> InlinePrint = (tobePrinted) => tobePrinted.WriteDump();
         int urutan = 0;
         foreach(string number in collection)
         {
