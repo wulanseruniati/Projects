@@ -1,0 +1,59 @@
+Git:
+-Branch : jika ada tambahan fitur. jika belum di akhir kelas di-branch. akhir kelas di-merge
+
+C#:
+-Keluarga C / C++ yang menggunakan paradigma OOP.
+-OOP: skalabilitas
+
+.NET:
+Runtime & Framework (library)
+
+Advantages:
+-Memory Management
+-Runtime
+-CPU Management
+
+4 pillars of OOP:
+-Encapsulation: membungkus field, method -> menyembunyikan kompleksitas.
+-Polymorphism: banyak bentuk (override - parameternya sama persis mengganti, overload - parameter).
+-Inheritance: pewarisan (child class punya semua yang dimiliki base/parent class).
+-Abstraction: mengabstraksi (method pada base class general, penerapannya bisa beda-beda di tiap child class).
+
+Class & Object:
+-Class : blueprint (cth: cetakan kue)   -> berisi : field, method (disimpan di memory, dipanggil saat jd object)
+					-> logical thing
+-Object : representasi/ instance dari class (cth: kue)
+					-> ada memory yang dialokasikan saat bikin objek
+
+Buat bikin :
+dotnet new sln -n "Day1"
+
+Change dulu:
+cd "Project A"
+
+Run :
+dotnet run
+
+NuGet : tambahin package ke project
+Output : Assembly (dll, exe)
+
+Method:
+modifier 	- public : diakses kelas manapun
+		- protected : diakses oleh kelas tersebut dan kelas turunannya
+		- protected internal : dapat diakses satu assembly ATAU kelas turunannya (beda assembly bisa)
+		- private : diakses di kelas tersebut
+		- internal : dapat diakses satu assembly (project)
+
+return value    - void (tdk kembaliin apa2)
+		- int (mau angka)
+		- data type lainnya
+
+Di versi 5 ada tambahan : 
+-Top Level Statement (bisa langsung run) ga bisa digabung dengan struktur umum (saat ASP.Net)
+-Struktur umum yang class program - static void main
+
+C# Project Structure :
+Solution (.sln)
+-> Project (.csproj) -> assembly -> .exe / .dll
+
+kelas, field (5), behavior (5)

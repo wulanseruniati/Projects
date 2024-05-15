@@ -1,0 +1,42 @@
+Day 2
+
+Modifier:
+-Class hrs lbh leluasa drpd method maupun attribute, misal: kalau class private, ga boleh method public
+-Jika tidak ada modifier yang di-assign, maka otomatis private
+
+Naming Convention:
+-Class: PascalCase
+-Attribute: camelCase
+-Method: PascalCase, untuk private : depannya ada _
+
+Constructor: method yang pertama dipanggil saat objek dari suatu kelas dibuat.
+-penulisan : <modifier> <nama kelas> ( <parameter jika ada> ) { //code }
+
+Data Type:
+-User defined : class as data type
+-float : ada akhiran "f"
+
+Class Relationship :
+-has a (composition) - kelasnya ga bisa berdiri sendiri, tinggal panggil aja. contoh: car - engine
+-has many (aggregation)
+-is a (inheritance). contoh: cat - is a(n) - animal
+
+Pakai ":" utk lambang inheritance
+C# ga bisa multiple inheritance.
+
+Best practice:
+Kalau ada kesamaan di banyak class, boleh tarik aja ke atas (bikin base)
+
+1 parent, 3 child - dipisah jadi 4 file.
+
+Jenis penyimpanan:
+Stack -> menyimpan *value type* (yang sdh pasti). Yang disimpan -> variabel dan juga value : int, char, dll.
+Heap -> menyimpan *reference type* (belum jelas bentuknya). Yang disimpan -> variabel dan alamat : class, string.
+
+Saat copy :
+-stack -> yang di-copy valuenya. jadi dibuat alamat berbeda
+-heap -> yang di-copy alamatnya. jadi alamatnya sama
+
+Best practice :
+Se-explicit mungkin untuk readability (mudah dibaca diri sendiri dan orang lain)
+

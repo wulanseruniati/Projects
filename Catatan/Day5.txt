@@ -1,0 +1,41 @@
+Delegate : 
+-reference type yang mereferensikan alamat method lain, dengan syarat memiliki method signature sama
+-alias dari method2 yang sudah dibuat, cm mereferensikan ke method lain
+-passing alamat jadi ga perlu parenthesis
+-suatu delegate bisa mereferensikan lebih dari 1 method (multicast delegate) - bikin list box
+-jika ada return value, yang dikembalikan nilai dari method yang terakhir dipanggil
+
+Method signature : return value, jumlah & tipe parameter yang sama
+
+Invoke : pengecekan null value -> jaga2 supaya ga crash, delegate nya dijalankan di thread baru
+Invoke adalah cara menjalankan suatu program di thread baru.
+Di dalam process, ada thread
+
+4 macam delegate default, yg sering dipakai Func dan Action, predicate
+
+Action: void return type
+Func: *zero* or more input (max 16), one out - tipe dari delegate
+Predicate : one input, out boolean -> khusus untuk melakukan pengecekan
+
+ActionHandler : kalau terjadi sesuatu di suatu kelas, akan ada method di kelas lain yang dipanggil
+Event adalah delegate
+Method yg menarik trigger : pakai kata "On" di depan
+Kelas yg menyampaikan : publisher
+Kelas yg melakukan handling : subscriber
+1 publisher bisa banyak subscriber
+1 subscriber bisa banyak publisher
+
+Kenapa pakai event?
+-Jika ada kelas lain yang terpengaruh juga oleh suatu perubahan di kelas lain
+
+Error :
+-Compile error
+-Runtime error -> exception -> exception handling
+-Human error
+
+Exception : try - catch utk lempar error
+-Prosesnya mahal, jangan digunakan sembarangan
+
+Field vs Properties (method, pakai pascal case):
+-Field : cepet
+-Properties : encapsulate

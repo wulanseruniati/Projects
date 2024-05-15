@@ -1,0 +1,11 @@
+Noun:
+player
+hero
+bot
+community pool
+gold
+bench
+board
+off-screen
+item
+experience

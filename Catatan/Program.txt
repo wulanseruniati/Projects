@@ -1,0 +1,19 @@
+using Kucing;
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        //dengan constructor:
+        Cat caty = new Cat("Whiskas","Caty");
+        Cat catyta = new Cat("Chicken","Catyta");
+        Cat catytu = new Cat("Fish","Catytu");
+        //bisa juga:
+        //Cat caty = new();
+        //tanpa constructor:
+        //caty.favoriteFood = "whiskas";
+
+        caty.Eat();
+        catyta.Eat();
+        catytu.Eat();
+    }
+}

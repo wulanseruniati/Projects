@@ -1,0 +1,82 @@
+*Boxing* 	- membungkus *value type* jadi tipe object (disimpan di heap)
+"Unboxing* 	- 
+
+Jangan sering2 karena boros (expensive) - bisa bikin program nge-bug saat .NET bersih2.
+
+value type disimpan di stack (penyimpanan LIFO, diatur OS, disimpan di RAM) - memory terbatas
+reference type disimpan di heap (penyimpanan acak, diatur .NET, disimpan di RAM) - memory dynamic
+
+Default value:
+reference type = null
+value type = tidak null. utk integer : 0
+
+Saat proses boxing, 	yang disimpan di heap : value dari i
+			yang disimpan di stack : alamat ke i
+
+Object : flexible (bisa bungkus string, int, dll sekaligus)
+
+Generics: menunda penentuan tipe data untuk ditentukan nanti saat di-assign
+Advantage generics : 	- type safe 
+			- memory efficiency
+
+*Fungsi memperjelas type*
+Compile time : 
+Run time : API Request
+Instantiate: mengalokasikan memori utk variabel tertentu
+
+Calculator cal = new();
+-type safety
+
+Dynamic							Var
+-type akan ditentukan saat runtime			-type akan ditentukan jenisnya ketika di-assign oleh compiler
+-expensive 						-
+-simpan variabel yang gatau bentuknya apa (API external)-
+
+Generic Constraint - membatasi data type yang akan di-assign ke generic
+-class -> reference type
+-struct -> value type
+-new() -> with parameterless constructor
+-baseclass 
+-interface
+-T:U
+
+Data type struct: 
+		-tidak mendukung inheritance, untuk simpan data2 kecil (coordinate)
+		-ga butuh banyak interaksi dengan kelas lain
+		
+public struct Coordinate {
+	double x;
+	double y;
+}
+
+Extension method pakai kata kunci "this"
+
+Ref : mengontrol argument dilewatin ke method, bisa dipakai maupun diubah oleh method.
+referensi variabel sebagai parameter jadi bukan hanya nilai tapi variabelnya. bisa return banyak value.
+ref : boleh diapain aja
+in : ambil nilai, ga boleh diubah - performa bacanya cepat (keyword readonly di parameter)
+out : mengeluarkan hasil - wajib diinisialisasi, ga bisa diubah2
+
+Enum (type) 
+-urutan konstanta integer -> tidak bisa diganti sampai akhir program (static)
+-(Enumeration) : seperti collection, bisa diambil terus menerus secara maju
+-Custom type (user defined) : bisa ditaruh di dalam kelas / di luar kelas
+-Value type
+-Data yang memiliki tipe data integer dan urut
+-Selain integer, bisa pakai tipe integral lain dan char
+-Underlying values (scr implisit ada) -> enum values, scr default dimulai dari nol dan naik 1
+-Biasa dipakai menyimpan int yg mengandung kode, misal http request code (404,400)
+-Tidak bisa inheritance karena sifatnya sealed (tertutup)
+-Menggantikan literal angka dgn label yg lbh mudah dibaca
+
+Advantage :
+-readibility
+-reusable
+-hemat memori
+-ga mudah diubah (constant)
+
+Params
+-Parameter yang jumlah argumennya bisa berbeda2
+
+Nested Type : special occasion (lebih bagus pakai inheritance, composition)
+- memanggil dirinya sendiri (di dlm if ada if lagi)
