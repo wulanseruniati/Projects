@@ -2,7 +2,7 @@
 There are 8 players in the match.
 Every player starts the game with 100 HP.
 There are two modes : preparation and gameplay (both have certain time limit).
-During preparation, player can buy heroes from community pool.
+During preparation, player can purchase heroes from community pool.
 In the community pool, there are 5 random heroes available to purchase.
 Player could re-roll the heroes available to purchase by using gold.
 The heroes bought could be sold again later with the same price.
