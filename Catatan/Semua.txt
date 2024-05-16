@@ -1,0 +1,103 @@
+OOP : a way of thinking that uses objects to solve the problems. OOP maximizes reusability and scalability.
+4 pillars of OOP : 
+-encapsulation : protecting data & methods from being accessed / changed 
+-abstraction : hiding complexity, only shows related features
+-polymorphism : many forms, example 
+	- static/ compile time: overloading (same method name but different parameter)
+	- . dynamic: overriding (same method name & method signature but different implementation)
+-inheritance : derived class(es) aquire(s) the base class' properties and methods
+
+Class & Object : 
+-class : blueprint of object. 
+-object : instance / representation of class.
+
+.NET advantages :
+-cross-platform
+-memory management
+-vast class library
+-community support
+-broad language support
+
+Access modifier : accessibility control to determine wheter the code can be used from other code.
+-public : can be accessed by any class in any assembly
+-private : can only be accessed inside the same class
+-internal : can be accessed by any class in the same assembly
+-protected : can be accessed by the class and its child/derived classes
+-protected internal : can be accessed by any class in the same assembly and its child/derived classes
+
+Naming convention : 
+-class name : PascalCase
+-field : camelCase
+-method : PascalCase
+-interface : prefix "I"
+
+Memory management :
+-stack : 
+	-used for static memory allocation. 
+	-value types are stored in stack. 
+	-the value is stored directly.
+	-managed by the CPU (OS).
+
+-heap : 
+	-used for dynamic memory allocation. 
+	-reference types are stored in heap. 
+	-the reference type holds a pointer that points to the actual memory location.
+	-managed by garbage collector of .NET
+
+Inheritance : C# doesn't support multiple inheritance. the syntax is :
+
+Method hiding : hides the methods of the base class from derived classes. uses the syntax 'new' 
+
+static : dibuat sekali dan akan terus ada di memori selama aplikasi berjalan, mereferensikan ke diri sendiri
+tidak perlu di-instantiate, tidak mendukung inheritance
+
+Generics : menunda penentuan tipe data untuk ditentukan nanti saat di-assign
+
+Ref : mengontrol argumen yang dilewatkan ke method
+
+
+Boxing : membungkus value type menjadi tipe object (reference type)
+Unboxing : membongkar value dari reference type
+
+Delegate : reference type that represents the method signature of a method.
+-reference type yang mereferensikan method lain yang memiliki method signature yang sama.
+-a delegate can represent more than one method (multicast delegate) using the keyword +=
+-in multicast delegate, if the method has return value, the value returned is the return value from the last method
+
+Default delegate:
+-action : default delegate with no return value
+-func : default delegate with one return value and zero or more parameter input
+-predicate : default delegate with return value boolean and one parameter input
+
+Event handler : performs the actions that are required when the event is raised.
+Kelas yang menyampaikan : publisher
+Kelas yang melakukan handling : subscriber
+
+Error handling :
+runtime error - use try - catch
+
+Field vs properties :
+Field : lebih cepat penulisannya
+Properties : encapsulation (is a method)
+
+Method signature : return value dan jumlah, jenis parameter yang sama
+
+Invoke : pengecekan null, menjalankan suatu program di thread baru
+
+Anonymous method : method without name, created using 'delegate' keyword.
+Lambda expression : shorthand of anonymous method
+
+Iterator : yield return - memungkinkan untuk dirunut - implement IEnumerable
+Enumerator : pointer - menelusuri collection - implement IEnumerator
+
+Collection : sekumpulan data
+Index-based : array, ArrayList, List
+Key-value : Dictionary
+Prioritized : FIFO (queue), LIFO (stack)
+
+HashSet : dipilih jika tidak boleh ada nilai yang sama
+LinkedList : dipilih jika ada penambahan/pengurangan dari kedua sisi (awal dan akhir)
+
+Operator overloading : define the way in which operator works with custom types
+-data type must struct/ class
+-the method must be declared as static

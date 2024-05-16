@@ -1,6 +1,6 @@
-﻿internal class Program
+﻿class Program
 {
-    private static void Main(string[] args)
+    public void Main(string[] args)
     {
         MyDelegate my = new MyDelegate(DelegateClass.Print);
         my += DelegateClass.Run;

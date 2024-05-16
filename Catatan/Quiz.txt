@@ -1,0 +1,136 @@
+Answer for first question (explain what is static):
+Static is declared once and can't be changed until the application stops running. static references to itself. static can be used for class, attribute, and method. When a class is declared as static, the attribute(s) and method(s) in the class must be declared as static as well. But static attribute and static method can be declared in a non-static class. Static class doesn't need to be instantiated. Static class doesn't support inheritance.
+Example the using of static class (with static attribute and static method):
+class Program {
+ public void Main() {
+  int diameter = 14;
+  //calling the static method of static class Calculator
+  Console.WriteLine("The area of circle is " + Calculator.CalculateCircleArea(diameter));
+ }
+}
+public static class Calculator {
+ //static attibute
+ private static double _pi = 3.14;
+
+ //static method
+ public static double CalculateCircleArea(int diameter) {
+  return _pi*(diameter/2)*(diameter/2);
+ }
+}
+
+Answer for second question (what is enum and why use it instead of string):
+enum (enumeration) is a type that holds constant names and underlying integral value.
+Below is the example of enum:
+class Program {
+ public void Main() {
+  //access enum
+  Console.Writeline(GameStatus.Ongoing); // Ongoing would be printed
+  //get enum underlying value by explicit casting
+  int ended = (int)GameStatus.Ended;
+ }
+}
+enum GameStatus {
+ Ongoing; //if no value is assigned, the value 0 would be assigned by default
+ Ended = 1; //developer can assign the underlying value
+}
+enum is better than string because of these points:
+enum is constant. It means the value won't be easy to change.
+readibility. Using enum is better than using meaningless integer. Example: http request (404 etc). It's better to access the value by using the name for coding convenience.
+scalability. For bigger projects where there are many team members, it's better to use the same constant name for a project rather than using different alias.
+
+Answer for third question (What is different between concrete class, abstract class, and interface? And why we need them?):
+Concrete class is a class that can be instantiated. We can instantiate object form concrete class. Example code:
+  class Program {
+   public void Main()
+   {
+    //instantiate object of class car
+    Car car = new Car("black");
+   }
+  }
+  public class Car {
+   private string _carColor;
+
+   public Car(string carColor) {
+    _carColor = carColor;
+   }
+  }
+Abstract class is a class that can't be instantiated. In abstract class, we can declare abstract method. Every derived/child class must implement the abstract method from abstract base class. A class can only have one base abstract class because C# doesn't support multiple inheritance. Example code:
+public abstract class Animal {
+ public abstract void Walk(); //needs to be implemented by all the child classes
+}
+public class Cat : Animal {
+ public override void Walk()
+ {
+  Console.WriteLine("Cat walking"); //override the abstract method
+ }
+}
+Interface is a contract that can be implemented. A class can implement more than one interface. If a class has a base class and implement interface at the same time, the base class must be mentioned first, followed by the interface. All the methods declared in an interface must be implemented by the class implementing it. Example code :
+public interface IPrint {
+ public void Print(string words);
+}
+public Class Printer : IPrint{
+ public void Print(string words)
+ {
+  //implements the method. The return type and parameter must match
+  Console.WriteLine("Printing " + words);
+ }
+}
+
+Why we need concrete class, abstract class, and interface?
+We need concrete class to instantiate object. We need abstract class to define some method that needs to be implemented in different ways in the derived classes, but at the same time also has a method that can be used in the same way in every derived classes. We need interface to provide better coding standard. The same method name for every similar work. Example, method "Print". If there's no standard, the team would come with different method names that actually perform the similar thing (printing).
+
+Answer for fourth question (Explain what is value and reference type?_:
+Value type:
+ value type is stored in stack (managed by the CPU/OS)
+ the memory allocated for value type is static.
+ the initial value of value type can't be null. Example: 0 for integer, false for bool
+ value type example : struct, primitive type.
+ store the value directly in stack.
+ mostly fast and efficient in memory
+
+Reference type:
+ reference type is stored in heap (managed by garbage collector .NET)
+ the memory allocated for reference type is dynamic, can grow as needed.
+ the initial value of reference type is null.
+ reference type example: class, object, collection.
+ store the reference to the memory location where the value is stored
+ mostly not as fast as value type because of its complexity
+
+Answer for fifth question (Explain what is generic, and generic constraint!
+Give example and what the function or purpose of them):
+Generic : when we use generic, we don't declare certain data type. the type would be declared when we assign the generic.
+Generic constraint : limit the data type that can be used for the generic.
+Why do we need generic and generic constraint? We need generic for the "reusability". By using generic, we can use the same class/ attribute/ method with different data types without having to create new ones. Plus, using generic is type-safe because we need to decide the data type. We can't use different data type from the one assigned.
+We need generic constraint to make sure the data type assigned is suitable with the code logic. There are several type of generic constraints:
+struct (only allows value type)
+class (only allows reference type)
+baseclass (only allows the base class and its derived classes)
+interface (only allows the interface and the classes implemented it)
+T : U ( T is the class implements/ inherits U)
+
+Example Generic and Generic constraint:
+Generic class/interface, generic attribute, and generic method
+public class Program {
+ public void Main()
+ {
+  Printer<string> printer = new Printer<string>("Hello");
+  printer.Print(printer.PrintValue);
+ }
+}
+
+//below is the example of generic class with generic constraint "class"
+public class Printer<T> where T : class
+{
+ //below is the example of generic attribute
+ public T PrintValue { get; private set; }
+
+ public Printer(T printValue)
+ {
+  PrintValue = printValue;
+ }
+ //below is the example of generic method
+ public void Print(T printValue)
+ {
+  Console.WriteLine("Printing " + printValue);
+ }
+}

@@ -3,7 +3,8 @@
 title: Auto Chess Class Diagram Ver. 0
 ---
 classDiagram
-    Player --o Hero :owns
+    IPlayer --o Hero :owns
+    Bot --o Hero :owns
     Hero *-- HeroClass
     Hero *-- HeroRace
     Hero <|-- Character
@@ -12,20 +13,63 @@ classDiagram
     Position --o Item
     Character --o Item :equips
     Backpack --o Item :stores    
-    Player --o Backpack :owns
+    IPlayer --o Backpack :owns
     GameController *-- Hero    
-    GameController *-- Player
-    GameController -- GameState
+    GameController *-- IPlayer
+    GameController -- GameState    
+    IPlayer <|.. Player
     Bench *-- Position
+    GameController *-- Timer  
+    GameController *-- Board  
+    GameController *-- Bench  
+    GameController *-- OffScreen   
+    Character --o OffScreen
+    Character --o Bench
+    Character --o CommunityPool
+    GameController *-- CommunityPool  
+    GameController -- StartRound 
+    CommunityPool -- StartRound  
+    Timer -- StartRound     
 
+    class IPlayer {
+        <<interface>>
+        +~get;~int PlayerId
+        +~get;~string PlayerName
+    }
     class Player {
         +~get;~int PlayerId
+        +~get;~ string PlayerName
         +Login()
         +PurchaseCharacter()
+    }    
+    class Bot {
+        +~get;~int BotId
+        +RandomCharacter()
+    }
+    class Timer {
+        +~get;~int RemainingTime
+        +StartTimer()
+        +StopTimer()
+    }
+    class StartRound {
+        <<delegate>>
+        +StartRoundDelegate
     }
     class GameController {
         +enum GameState
+        +~get;~IPlayer PlayerData
+        +~get;~ Hero HeroData
+        +~get;~ Timer TimerData
+        +~get;~ Board BoardData
+        +~get;~ OffScreen OffScreen
+        +~get;~int CurrentRound
+        +~get;~int MaxNumberHero
         +SetTimer()
+        +AddPlayer()
+        +OnStartRound()
+        +OnChangeStatus()
+        +ResetRound()
+        +ReturnRoundResult()
     }
     class GameState {
         <<enum>>
@@ -46,15 +90,24 @@ classDiagram
         #double atkSpeed
         #enum HeroClass
         #enum HeroRace
+        +~get;~IPlayer PlayerData
         +Spawn()
         +Disappear()
         +abstract Attack()
         +abstract Move()
     }
-    class HeroClass
-    <<enum>> HeroClass
-    class HeroRace
-    <<enum>> HeroRace
+    class HeroClass {
+    <<enum>> 
+    Druid
+    Mech
+    Mage
+    }
+    class HeroRace {
+    <<enum>> 
+    Beast
+    Demon
+    Goblin
+    }
     class Position {
     <<struct>>
         +~get;~ int X
@@ -63,12 +116,27 @@ classDiagram
     class Board {
         +IsAvailable()
     }
+    class Bench {
+        +~get;~Character IdleCharacter
+        +IsAvailable()
+    }
+    class OffScreen {
+        +~get;~Character DeadCharacter
+        +IsEmpty()
+    }
+    class CommunityPool {
+        +~get;~Character CharacterAvailable
+        +CloseWindow()
+        +GenerateRandomHeroes()
+    }
     class Character{
         +~get;~int CharId
         +~get;~string CharName
-        +~get;~int AvailableToPurchase        
-        +~get;~ Position
-        +Attack()
+        +~get;~int AvailableToPurchase  
+        +~get;~int HP        
+        +~get;~Position PositionChar
+        +Attack(IPlayer iPlayer)
+        +Attack(Character character)
         +Move()
     }
     class Item{

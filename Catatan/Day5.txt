@@ -17,7 +17,7 @@ Action: void return type
 Func: *zero* or more input (max 16), one out - tipe dari delegate
 Predicate : one input, out boolean -> khusus untuk melakukan pengecekan
 
-ActionHandler : kalau terjadi sesuatu di suatu kelas, akan ada method di kelas lain yang dipanggil
+EventHandler : kalau terjadi sesuatu di suatu kelas, akan ada method di kelas lain yang dipanggil
 Event adalah delegate
 Method yg menarik trigger : pakai kata "On" di depan
 Kelas yg menyampaikan : publisher

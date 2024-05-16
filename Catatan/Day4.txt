@@ -57,7 +57,7 @@ ref : boleh diapain aja
 in : ambil nilai, ga boleh diubah - performa bacanya cepat (keyword readonly di parameter)
 out : mengeluarkan hasil - wajib diinisialisasi, ga bisa diubah2
 
-Enum (type) 
+Enum (type) : a set of named constants and are represented by an underlying integral set of values.
 -urutan konstanta integer -> tidak bisa diganti sampai akhir program (static)
 -(Enumeration) : seperti collection, bisa diambil terus menerus secara maju
 -Custom type (user defined) : bisa ditaruh di dalam kelas / di luar kelas
