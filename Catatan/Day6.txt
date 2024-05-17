@@ -1,5 +1,5 @@
-Lambda expression (lebih dianjurkan) : kependekan dari anonymous method
 Anonymous method : method tanpa nama -> ada keyword delegate
+Lambda expression (lebih dianjurkan) : kependekan dari anonymous method
 
 Bisa digunakan selain delegate juga
 
@@ -50,3 +50,15 @@ O(n) - harus semua dicari
 Array - spt string, kalau dimodifikasi berarti dibuat ulang
 
 List - 
+
+HashSet - tidak boleh sama : analisa text - unique words dr large document
+
+LinkedList - konsep node : menambah & mengurangi dr kedua sisi (awal sm akhir)
+
+dictionary - key value
+
+arraylist - tidak type safety - todo list application
+
+Queue - FIFO - print spooler apps
+
+stack - LIFO push dan pop - calculator reverse Polish notation

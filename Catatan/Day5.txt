@@ -3,7 +3,7 @@ Delegate :
 -alias dari method2 yang sudah dibuat, cm mereferensikan ke method lain
 -passing alamat jadi ga perlu parenthesis
 -suatu delegate bisa mereferensikan lebih dari 1 method (multicast delegate) - bikin list box
--jika ada return value, yang dikembalikan nilai dari method yang terakhir dipanggil
+-jika ada return value, yang dikembalikan nilai dari method yang terakhir dipanggil (kecuali pakai method GetInvocationList())
 
 Method signature : return value, jumlah & tipe parameter yang sama
 

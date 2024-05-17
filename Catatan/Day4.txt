@@ -55,9 +55,9 @@ Ref : mengontrol argument dilewatin ke method, bisa dipakai maupun diubah oleh m
 referensi variabel sebagai parameter jadi bukan hanya nilai tapi variabelnya. bisa return banyak value.
 ref : boleh diapain aja
 in : ambil nilai, ga boleh diubah - performa bacanya cepat (keyword readonly di parameter)
-out : mengeluarkan hasil - wajib diinisialisasi, ga bisa diubah2
+out : mengeluarkan hasil - wajib diinisialisasi
 
-Enum (type) 
+Enum (type) - assign constant names to a group of numeric integer values (makes constant values more readable)
 -urutan konstanta integer -> tidak bisa diganti sampai akhir program (static)
 -(Enumeration) : seperti collection, bisa diambil terus menerus secara maju
 -Custom type (user defined) : bisa ditaruh di dalam kelas / di luar kelas
@@ -75,7 +75,9 @@ Advantage :
 -hemat memori
 -ga mudah diubah (constant)
 
-Params
+Params : 
+No other parameters are permitted after the params keyword in a method declaration, 
+and only one params keyword is permitted in a method declaration.
 -Parameter yang jumlah argumennya bisa berbeda2
 
 Nested Type : special occasion (lebih bagus pakai inheritance, composition)

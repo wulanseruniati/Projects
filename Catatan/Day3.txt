@@ -37,7 +37,7 @@ Abstraction: proses mengabstraksi
 -Interface: kontrak - harus diterapkan tapi terserah penerapannya bagaimana, tidak boleh ada method yang seragam
 	-> implement
 	-> 1 class bisa menerapkan banyak interface
--Abstract class: method override harus di-override, method tidak abstract tidak wajib di-override
+-Abstract class: method abstract harus di-override, method tidak abstract tidak wajib di-override
 	-> inherit
 	-> 1 class hanya bisa 1 punya parent abstract class
 
