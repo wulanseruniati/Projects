@@ -1,18 +1,20 @@
 Noun:
-player
-hero
-bot
-community pool
-gold
-bench
-board
-off-screen
-item
-experience
-backpack
-hero class
-hero race
-game controller
+Player - IPlayer -
+IHero - Hero
+Bot
+Community Pool
+Bench
+Board - IBoard
+Off Screen
+Item
+Backpack
+HeroClass (enum)
+HeroRace (enum)
+Game Controller (class)
+Position (struct)
+
+Attribute Player (PlayerData) :
+Gold,Experience
 
 Relation:
 player enter community pool

@@ -1,0 +1,1 @@
+SOLID : dependency inversion - tidak dependent ke kelas yang lebih kecil (game controller ga terpengaruh sm perubahan di kelas player)

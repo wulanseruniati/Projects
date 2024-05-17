@@ -12,7 +12,7 @@ public class Product
 {
     private decimal price;
 
-    public event PriceChangedEventHandler? PriceChanged;
+    public event PriceChanged;
 
     public decimal Price
     {

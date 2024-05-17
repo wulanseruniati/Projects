@@ -7,7 +7,7 @@ public class Human
     public int id { get; } //cuma bisa di-get
 
     private int _balance;
-    public int Balance
+    public int Balance 
     {
         get { return _balance; }
         set

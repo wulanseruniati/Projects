@@ -4,8 +4,11 @@
         Func<int, int, int> Addition = AddNumbers;
         System.Console.WriteLine(Addition(2,3));
         Action<int,int> Addition2 = AddNumber;
+        Addition2 += delegate(int x, int y) { System.Console.WriteLine(x+y);};
         Addition2(2,5);        
-        //anonymous method
+        List<IHero> iHero = new();
+        Dictionary<List<IHero>,int> apa = new();
+        /*anonymous method
         Func<int,int,int> addFunc2 = delegate(int x, int y) { return x+y; };
         System.Console.WriteLine(addFunc2(3,5));
         //func with lambda
@@ -19,7 +22,7 @@
         printAnonymous(10,12);
         //action with lambda
         Action<int> printAction = (i) => System.Console.WriteLine(i);
-        printAction(10);
+        printAction(10);*/
     }
 
     static int AddNumbers(int param1, int param2)

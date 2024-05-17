@@ -1,4 +1,3 @@
-```mermaid
 ---
 title: Auto Chess Class Diagram Ver. 0
 ---
@@ -58,7 +57,7 @@ classDiagram
         +CommunityPool CommunityPoolData ~get; private set~ 
         +int CurrentRound ~get; private set~
         +int maxPlayerNumber : readonly
-        +Dictionary<List<IHero>,int> SpecialStat ~get; private set~
+        +Dictionary<List<IHero>,int> SpecialStatHP ~get; private set~
         +Action~IPlayer,CommunityPool~ OnOpenCommunityPool
         +Action~IPlayer,CommunityPool~ OnRerollHero
         +Action~IPlayer,CommunityPool~ OnPurchaseHero
@@ -66,7 +65,8 @@ classDiagram
         +Action~IPlayer,IHero~ OnStartRound
         +Action~IPlayer,IHero~ OnStopRound
         +Action~IHero,OffScreen~ OnRemoveDeadHero
-        +Func~IHero,IItem,bool~ OnCheckEquipItem
+        +Func~IHero,IItem,bool~ OnCheckEquipItem         
+        +Func~IPlayer,SpecialStatHP,int~AddSpecialHeroState
         +Predicate~IPlayer~ OnCheckRoundWinner
         +GameController(int maxPlayerNumber=8, IPlayer player, Timer timer, GameState gameState)
         +SetGameState(GameState gameState)
@@ -77,9 +77,8 @@ classDiagram
         +AddPlayerGold(IPlayer player, List<int,string> roundResult)
         +ReturnRoundResult(IPlayer player, IHero heroLeft)    
         +DirectDamagePlayer(IPlayer player, IHero heroLeft)   
-        +RandomItemPosition()
-        +SetCanLeveUpHero(IHero hero, int countHero) 
-        +AddSpecialHeroState(IPlayer player, IHero hero)   
+        +RandomItemPosition(IItem item)
+        +SetCanLeveUpHero(IHero hero, int countHero)   
         +UpdatePlayerOrder(IPlayer player)   
         +RemovePlayer(IPlayer player) 
     }    
@@ -168,7 +167,6 @@ classDiagram
         +int DamageToPlayer ~get; private set~
         +int Atk ~get; private set~
         +IItem itemEquipped ~get; private set~
-        +Dictionary~HeroClass,int~ specialStat ~get; private set~
         +double AtkSpeed ~get; private set~
         +HeroClass HeroClass ~get; private set~
         +HeroRace HeroRace ~get; private set~
@@ -183,6 +181,7 @@ classDiagram
         +MoveOnBoard()
         +LevelUpHero()
         +EquipItem()
+        +AddSpecialStat()
     }
     
     class IItem{
@@ -205,4 +204,3 @@ classDiagram
         +StoresItem()
         +Backpack(int backpackMaxCapacity = 10)
     }
-```
