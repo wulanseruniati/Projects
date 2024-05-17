@@ -18,7 +18,7 @@ classDiagram
     IPlayer "1" o-- "0..*" IHero :owns    
     IPlayer <|.. Player
 
-    IHero <|-- Hero
+    IHero <|.. Hero
     IHero "1..*" *-- "1" HeroClass
     IHero "1..*" *-- "1" HeroRace
     IHero "0..*" o-- "0..1" OffScreen
@@ -33,7 +33,8 @@ classDiagram
     Position --o IItem
     Backpack --o IItem :stores 
 
-    IItem <|-- Item
+    IItem <|.. Item
+    IBoard <|.. Board
 
     class IPlayer {
         <<interface>>
@@ -58,15 +59,17 @@ classDiagram
         +CommunityPool CommunityPoolData ~get; private set~ 
         +int CurrentRound ~get; private set~
         +int maxPlayerNumber : readonly
-        +Dictionary<List<IHero>,int> SpecialStat ~get; private set~
+        +Dictionary<int,int> MaxHeroOnBoard ~get; private set~
+        +Dictionary<List<IHero>,int> SpecialStatHP ~get; private set~
         +Action~IPlayer,CommunityPool~ OnOpenCommunityPool
         +Action~IPlayer,CommunityPool~ OnRerollHero
         +Action~IPlayer,CommunityPool~ OnPurchaseHero
         +Action~IPlayer,CommunityPool~ OnSellHero
-        +Action~IPlayer,IHero~ OnStartRound
-        +Action~IPlayer,IHero~ OnStopRound
+        +Action~IPlayer,IHero,Timer~ OnStartRound
+        +Action~IPlayer,IHero,Timer~ OnStopRound
         +Action~IHero,OffScreen~ OnRemoveDeadHero
-        +Func~IHero,IItem,bool~ OnCheckEquipItem
+        +Func~IHero,IItem,bool~ OnCheckEquipItem         
+        +Func~IPlayer,SpecialStatHP,int~AddSpecialHeroStateHP
         +Predicate~IPlayer~ OnCheckRoundWinner
         +GameController(int maxPlayerNumber=8, IPlayer player, Timer timer, GameState gameState)
         +SetGameState(GameState gameState)
@@ -77,9 +80,9 @@ classDiagram
         +AddPlayerGold(IPlayer player, List<int,string> roundResult)
         +ReturnRoundResult(IPlayer player, IHero heroLeft)    
         +DirectDamagePlayer(IPlayer player, IHero heroLeft)   
-        +RandomItemPosition()
-        +SetCanLeveUpHero(IHero hero, int countHero) 
-        +AddSpecialHeroState(IPlayer player, IHero hero)   
+        +RandomItemPosition(IItem item)
+        +SetMaxHeroOnBoard(IPlayer player) : int
+        +SetCanLeveUpHero(IHero hero, int countHero)   
         +UpdatePlayerOrder(IPlayer player)   
         +RemovePlayer(IPlayer player) 
     }    
@@ -95,7 +98,7 @@ classDiagram
         +int PlayerHP ~get; private set~
         +int WinStreak ~get; private set~
         +Dictionary<int,bool> RoundResult ~get; private set~
-        +Dictionary<int,int> MaxHeroOnBoard ~get; private set~
+        +int MaxHeroOnBoard ~get; private set~
         +Login(string playerName, string password)
         +OpenCommunityPool()
         +ReRollHero(int gold)
@@ -168,7 +171,6 @@ classDiagram
         +int DamageToPlayer ~get; private set~
         +int Atk ~get; private set~
         +IItem itemEquipped ~get; private set~
-        +Dictionary~HeroClass,int~ specialStat ~get; private set~
         +double AtkSpeed ~get; private set~
         +HeroClass HeroClass ~get; private set~
         +HeroRace HeroRace ~get; private set~
@@ -183,6 +185,7 @@ classDiagram
         +MoveOnBoard()
         +LevelUpHero()
         +EquipItem()
+        +AddSpecialStat()
     }
     
     class IItem{
