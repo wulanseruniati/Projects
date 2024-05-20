@@ -1,5 +1,5 @@
 namespace Hewan {
-    class Bear()
+    class Bear : Animal
     {
         public bool isWid;
         string? name {get; set;}

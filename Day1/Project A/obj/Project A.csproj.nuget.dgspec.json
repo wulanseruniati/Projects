@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bootcamp10\\Projects\\Project A\\Project A.csproj": {}
+    "D:\\Bootcamp10\\Projects\\Day1\\Project A\\Project A.csproj": {}
   },
   "projects": {
-    "D:\\Bootcamp10\\Projects\\Project A\\Project A.csproj": {
+    "D:\\Bootcamp10\\Projects\\Day1\\Project A\\Project A.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bootcamp10\\Projects\\Project A\\Project A.csproj",
+        "projectUniqueName": "D:\\Bootcamp10\\Projects\\Day1\\Project A\\Project A.csproj",
         "projectName": "Project A",
-        "projectPath": "D:\\Bootcamp10\\Projects\\Project A\\Project A.csproj",
+        "projectPath": "D:\\Bootcamp10\\Projects\\Day1\\Project A\\Project A.csproj",
         "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-        "outputPath": "D:\\Bootcamp10\\Projects\\Project A\\obj\\",
+        "outputPath": "D:\\Bootcamp10\\Projects\\Day1\\Project A\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"

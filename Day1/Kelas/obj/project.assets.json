@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Bootcamp10\\Projects\\Kelas\\Kelas.csproj",
+      "projectUniqueName": "D:\\Bootcamp10\\Projects\\Day1\\Kelas\\Kelas.csproj",
       "projectName": "Kelas",
-      "projectPath": "D:\\Bootcamp10\\Projects\\Kelas\\Kelas.csproj",
+      "projectPath": "D:\\Bootcamp10\\Projects\\Day1\\Kelas\\Kelas.csproj",
       "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-      "outputPath": "D:\\Bootcamp10\\Projects\\Kelas\\obj\\",
+      "outputPath": "D:\\Bootcamp10\\Projects\\Day1\\Kelas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config"

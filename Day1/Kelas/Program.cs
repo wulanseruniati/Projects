@@ -6,6 +6,9 @@ class Program()
     {
         //create new object of class Bear
         Bear beruang1 = new();
+        Animal ani = beruang1;
+        Animal animal = new();
+        Bear bear = (Bear)animal;
 
         //run method1
         beruang1.Walking();

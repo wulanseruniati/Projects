@@ -1,0 +1,20 @@
+Item - Board (composition) udah
+Board : dictionary<position,item> udah
+Pakai titik setelah tanda ~ karena kalau koma tidak bisa. udah
+remove getpostiotion (position) udah
+game controller : dictionary player, player data udah
+Timer di-remove (sm UI aja) udah
+GetHerosPlayer(IPlayer player) : List<IHero> udah
+
+update : return bool (berhasil ngga) 
+MoveHero(player, hero, position) : bool
+GetPlayers() : List<IPlayer>
+Dictionary jangan dibuat public - pakai getter saja
+semua collection juga (readonly juga valuenya msh bs diganti)
+Revisi jadi {get;} di tiap interface
+enum : tiles-type (bench = 5, board = 10)
+
+1 game bisa banyak game controller
+marvelsnap: saat OnRelevealed pass game controller:
+karena ada kartu yg mempengaruhi jalannya permainan
+Copy() : saat hero di purchase tapi masih ada di store (prototype)
