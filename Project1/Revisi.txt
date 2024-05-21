@@ -1,0 +1,3 @@
+Dictionary<Hero, Bench> heroOnBench
+Dictionary<Hero, Arena> heroOnArena
+Ditambah All untuk yang parameternya kosong
