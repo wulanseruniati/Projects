@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collector", "Collector\Collector.csproj", "{183B4764-E13E-476E-8906-575E317CECE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Garbage", "Garbage\Garbage.csproj", "{53B6F518-9234-4F4D-9854-E52E5694C481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dispose", "Dispose\Dispose.csproj", "{3E9EBAF6-1E34-4EFA-A186-C5545AE5B425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{183B4764-E13E-476E-8906-575E317CECE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183B4764-E13E-476E-8906-575E317CECE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183B4764-E13E-476E-8906-575E317CECE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183B4764-E13E-476E-8906-575E317CECE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53B6F518-9234-4F4D-9854-E52E5694C481}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B6F518-9234-4F4D-9854-E52E5694C481}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B6F518-9234-4F4D-9854-E52E5694C481}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B6F518-9234-4F4D-9854-E52E5694C481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9EBAF6-1E34-4EFA-A186-C5545AE5B425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9EBAF6-1E34-4EFA-A186-C5545AE5B425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9EBAF6-1E34-4EFA-A186-C5545AE5B425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9EBAF6-1E34-4EFA-A186-C5545AE5B425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

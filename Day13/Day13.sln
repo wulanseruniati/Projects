@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "String", "String\String.csproj", "{3900EE16-A035-48BF-800B-08E639EF6794}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collector", "Collector\Collector.csproj", "{B4B13179-053D-4233-B0E5-44393564AD73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3900EE16-A035-48BF-800B-08E639EF6794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3900EE16-A035-48BF-800B-08E639EF6794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3900EE16-A035-48BF-800B-08E639EF6794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3900EE16-A035-48BF-800B-08E639EF6794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4B13179-053D-4233-B0E5-44393564AD73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4B13179-053D-4233-B0E5-44393564AD73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4B13179-053D-4233-B0E5-44393564AD73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4B13179-053D-4233-B0E5-44393564AD73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day12\Garbage\bin\Debug\net8.0\Garbage.exe
+D:\Bootcamp10\Projects\Day12\Garbage\bin\Debug\net8.0\Garbage.deps.json
+D:\Bootcamp10\Projects\Day12\Garbage\bin\Debug\net8.0\Garbage.runtimeconfig.json
+D:\Bootcamp10\Projects\Day12\Garbage\bin\Debug\net8.0\Garbage.dll
+D:\Bootcamp10\Projects\Day12\Garbage\bin\Debug\net8.0\Garbage.pdb
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.sourcelink.json
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.dll
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\refint\Garbage.dll
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.pdb
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\Garbage.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day12\Garbage\obj\Debug\net8.0\ref\Garbage.dll
