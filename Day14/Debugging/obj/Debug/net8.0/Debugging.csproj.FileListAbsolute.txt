@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day14\Debugging\bin\Debug\net8.0\Debugging.exe
+D:\Bootcamp10\Projects\Day14\Debugging\bin\Debug\net8.0\Debugging.deps.json
+D:\Bootcamp10\Projects\Day14\Debugging\bin\Debug\net8.0\Debugging.runtimeconfig.json
+D:\Bootcamp10\Projects\Day14\Debugging\bin\Debug\net8.0\Debugging.dll
+D:\Bootcamp10\Projects\Day14\Debugging\bin\Debug\net8.0\Debugging.pdb
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.sourcelink.json
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.dll
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\refint\Debugging.dll
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.pdb
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\Debugging.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day14\Debugging\obj\Debug\net8.0\ref\Debugging.dll

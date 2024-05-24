@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day14\Using\bin\Debug\net8.0\Using.exe
+D:\Bootcamp10\Projects\Day14\Using\bin\Debug\net8.0\Using.deps.json
+D:\Bootcamp10\Projects\Day14\Using\bin\Debug\net8.0\Using.runtimeconfig.json
+D:\Bootcamp10\Projects\Day14\Using\bin\Debug\net8.0\Using.dll
+D:\Bootcamp10\Projects\Day14\Using\bin\Debug\net8.0\Using.pdb
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.sourcelink.json
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.dll
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\refint\Using.dll
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.pdb
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\Using.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day14\Using\obj\Debug\net8.0\ref\Using.dll

@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day14\Finally\bin\Debug\net8.0\Finally.exe
+D:\Bootcamp10\Projects\Day14\Finally\bin\Debug\net8.0\Finally.deps.json
+D:\Bootcamp10\Projects\Day14\Finally\bin\Debug\net8.0\Finally.runtimeconfig.json
+D:\Bootcamp10\Projects\Day14\Finally\bin\Debug\net8.0\Finally.dll
+D:\Bootcamp10\Projects\Day14\Finally\bin\Debug\net8.0\Finally.pdb
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.sourcelink.json
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.dll
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\refint\Finally.dll
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.pdb
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\Finally.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day14\Finally\obj\Debug\net8.0\ref\Finally.dll
