@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day15\LockExercise1\bin\Debug\net8.0\LockExercise1.exe
+D:\Bootcamp10\Projects\Day15\LockExercise1\bin\Debug\net8.0\LockExercise1.deps.json
+D:\Bootcamp10\Projects\Day15\LockExercise1\bin\Debug\net8.0\LockExercise1.runtimeconfig.json
+D:\Bootcamp10\Projects\Day15\LockExercise1\bin\Debug\net8.0\LockExercise1.dll
+D:\Bootcamp10\Projects\Day15\LockExercise1\bin\Debug\net8.0\LockExercise1.pdb
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.sourcelink.json
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.dll
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\refint\LockExercise1.dll
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.pdb
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\LockExercise1.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day15\LockExercise1\obj\Debug\net8.0\ref\LockExercise1.dll
