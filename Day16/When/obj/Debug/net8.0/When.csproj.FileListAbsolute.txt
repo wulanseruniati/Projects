@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\When\bin\Debug\net8.0\When.exe
+D:\Bootcamp10\Projects\Day16\When\bin\Debug\net8.0\When.deps.json
+D:\Bootcamp10\Projects\Day16\When\bin\Debug\net8.0\When.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\When\bin\Debug\net8.0\When.dll
+D:\Bootcamp10\Projects\Day16\When\bin\Debug\net8.0\When.pdb
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.sourcelink.json
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.dll
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\refint\When.dll
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.pdb
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\When.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\When\obj\Debug\net8.0\ref\When.dll

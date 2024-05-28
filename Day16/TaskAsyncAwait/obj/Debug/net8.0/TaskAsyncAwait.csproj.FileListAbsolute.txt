@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.sourcelink.json
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\bin\Debug\net8.0\TaskAsyncAwait.exe
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\bin\Debug\net8.0\TaskAsyncAwait.deps.json
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\bin\Debug\net8.0\TaskAsyncAwait.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\bin\Debug\net8.0\TaskAsyncAwait.dll
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\bin\Debug\net8.0\TaskAsyncAwait.pdb
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.dll
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\refint\TaskAsyncAwait.dll
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.pdb
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\TaskAsyncAwait.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\TaskAsyncAwait\obj\Debug\net8.0\ref\TaskAsyncAwait.dll

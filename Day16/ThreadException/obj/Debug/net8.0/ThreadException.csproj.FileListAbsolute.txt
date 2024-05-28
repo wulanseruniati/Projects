@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\ThreadException\bin\Debug\net8.0\ThreadException.exe
+D:\Bootcamp10\Projects\Day16\ThreadException\bin\Debug\net8.0\ThreadException.deps.json
+D:\Bootcamp10\Projects\Day16\ThreadException\bin\Debug\net8.0\ThreadException.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\ThreadException\bin\Debug\net8.0\ThreadException.dll
+D:\Bootcamp10\Projects\Day16\ThreadException\bin\Debug\net8.0\ThreadException.pdb
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.sourcelink.json
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.dll
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\refint\ThreadException.dll
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.pdb
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ThreadException.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\ThreadException\obj\Debug\net8.0\ref\ThreadException.dll

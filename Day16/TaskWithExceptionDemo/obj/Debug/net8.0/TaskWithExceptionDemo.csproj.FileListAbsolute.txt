@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\bin\Debug\net8.0\TaskWithExceptionDemo.exe
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\bin\Debug\net8.0\TaskWithExceptionDemo.deps.json
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\bin\Debug\net8.0\TaskWithExceptionDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\bin\Debug\net8.0\TaskWithExceptionDemo.dll
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\bin\Debug\net8.0\TaskWithExceptionDemo.pdb
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.dll
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\refint\TaskWithExceptionDemo.dll
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.pdb
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\TaskWithExceptionDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\TaskWithExceptionDemo\obj\Debug\net8.0\ref\TaskWithExceptionDemo.dll

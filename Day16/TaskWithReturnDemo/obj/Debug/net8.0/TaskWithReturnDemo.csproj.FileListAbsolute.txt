@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.exe
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.deps.json
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.dll
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\bin\Debug\net8.0\TaskWithReturnDemo.pdb
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.dll
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\refint\TaskWithReturnDemo.dll
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.pdb
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\TaskWithReturnDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\TaskWithReturnDemo\obj\Debug\net8.0\ref\TaskWithReturnDemo.dll
