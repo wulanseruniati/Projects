@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Othello\Othello\bin\Debug\net8.0\Othello.exe
+D:\Bootcamp10\Projects\Othello\Othello\bin\Debug\net8.0\Othello.deps.json
+D:\Bootcamp10\Projects\Othello\Othello\bin\Debug\net8.0\Othello.runtimeconfig.json
+D:\Bootcamp10\Projects\Othello\Othello\bin\Debug\net8.0\Othello.dll
+D:\Bootcamp10\Projects\Othello\Othello\bin\Debug\net8.0\Othello.pdb
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.sourcelink.json
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.dll
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\refint\Othello.dll
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.pdb
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\Othello.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Othello\Othello\obj\Debug\net8.0\ref\Othello.dll
