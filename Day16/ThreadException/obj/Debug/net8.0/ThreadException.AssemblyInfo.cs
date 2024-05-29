@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ThreadException")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+38228a08063bae9c2e82b0be7c72b9b52bc5da3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b53ae407a689f1705b5c053cbff20b4f5dbda3c")]
 [assembly: System.Reflection.AssemblyProductAttribute("ThreadException")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ThreadException")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
