@@ -1,0 +1,53 @@
+*Thread vs Task*
+Thread			Task
+-------------------------------------------------------
+Foreground		Background
+Bikin sendiri		Di-manage oleh threadpool (CLR)
+Multithreading		Asynchronous
+(overhead)		async-await
+Menjadwalkan sesuatu	Akan dijalankan otomatis
+Akses resource
+Higher lower		Lower level (lebih abstrak)
+Thread abort		Cancellation Token
+
+Thread blocking: ada task yang mengakibatkan terjadinya block pada main thread
+Wait()
+Sleep()
+
+Lebih disarankan pakai when() biar ga menyebabkan blocking
+
+A void or int returning entry point cannot be async - jadi Main nya pakai static async Task Main()
+
+WhenAny - mengembalikan salah satu nilai aja
+WhenAll - butuh mengembalikan semua data
+
+method callback bisa pakai task
+
+Exception:
+-Thread: ketika dapat exception, langsung berhenti. 
+	 error harus ditangkap di tiap task
+-Task  : ketika dapat exception, masih berlajan prosesnya.
+	 ada aggregate exception buat tangkap banyak exception
+
+Multithreading: multi thread want to access/ change the same resorces
+
+Mengatasi race condition:
+untuk pengulangan, simpan lock di luar pengulangan
+
+Signaling : manual reset even dan auto reset event
+sinkronisasi dalam multi thread
+
+intptr : signed (hanya nilai positif)
+
+Auto Reset Event	: otomatis nutup -> false _ no signal
+Manual Reset Event 	: harus ditutup manual
+
+static: kalau mau ubah value secara global
+
+manual : reset() // false
+	 set() // true
+	 WaitOne() // tunggu smp true
+1 kerja, thread sisanya nunggu
+
+auto:
+//kalau mau waitone tapi set dibawah, default true biar kepanggil semua :)
