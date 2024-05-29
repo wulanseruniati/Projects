@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\bin\Debug\net8.0\SemaphoreSlimDemo.exe
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\bin\Debug\net8.0\SemaphoreSlimDemo.deps.json
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\bin\Debug\net8.0\SemaphoreSlimDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\bin\Debug\net8.0\SemaphoreSlimDemo.dll
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\bin\Debug\net8.0\SemaphoreSlimDemo.pdb
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.dll
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\refint\SemaphoreSlimDemo.dll
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.pdb
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\SemaphoreSlimDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day17\SemaphoreSlimDemo\obj\Debug\net8.0\ref\SemaphoreSlimDemo.dll

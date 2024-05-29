@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.exe
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.deps.json
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.dll
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\bin\Debug\net8.0\StreamWriterDemo.pdb
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.dll
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\refint\StreamWriterDemo.dll
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.pdb
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\StreamWriterDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day17\StreamWriterDemo\obj\Debug\net8.0\ref\StreamWriterDemo.dll

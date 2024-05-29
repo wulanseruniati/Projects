@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\bin\Debug\net8.0\FileStreamDemo.exe
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\bin\Debug\net8.0\FileStreamDemo.deps.json
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\bin\Debug\net8.0\FileStreamDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\bin\Debug\net8.0\FileStreamDemo.dll
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\bin\Debug\net8.0\FileStreamDemo.pdb
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.dll
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\refint\FileStreamDemo.dll
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.pdb
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\FileStreamDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day17\FileStreamDemo\obj\Debug\net8.0\ref\FileStreamDemo.dll
