@@ -1,0 +1,209 @@
+---
+title: Auto Chess Class Diagram Ver. 0
+---
+classDiagram
+    GameController "1" *-- "0..*" IHero    
+    GameController "1" *-- "1..8" IPlayer
+    GameController "1" *-- "0..*" IItem
+    GameController -- GameState  
+    GameController "1" *-- "1" Timer  
+    GameController "1" *-- "1" IBoard  
+    GameController "1" *-- "1" Bench  
+    GameController "1" *-- "1" OffScreen      
+    GameController "1" *-- "1" CommunityPool  
+    GameController "1" *-- "1" Backpack  
+
+    IPlayer "1" o-- "1" Backpack :owns
+    IPlayer "1" o-- "0..*" IHero :owns    
+    IPlayer <|.. Player
+
+    IHero <|.. Hero
+    IHero "1..*" *-- "1" HeroClass
+    IHero "1..*" *-- "1" HeroRace
+    IHero "0..*" o-- "0..1" OffScreen
+    IHero "0..*" o-- "0..1" IBoard
+    IHero "0..*" o-- "0..1" Bench
+    IHero "0..*" o-- "1..*" CommunityPool
+    IHero "0..*" o-- "0..1" IItem :equips
+
+    IBoard "1" *-- "0..1" Position 
+    Bench *-- Position
+    Position --o IHero
+    Position --o IItem
+    Backpack --o IItem :stores 
+
+    IItem <|.. Item
+    IBoard <|.. Board
+
+    class IPlayer {
+        <<interface>>
+        +int PlayerId ~get; private set~
+        +string PlayerName ~get; private set~
+        +bool IsBot ~get; private set~
+    }
+    class Timer {
+        +int RemainingTime ~get; private set~
+        +StartTimer()
+        +StopTimer()
+    }
+    class GameController {
+        +GameState GameState ~get; private set~
+        +IPlayer PlayerData ~get; private set~ 
+        +IHero HeroData ~get; private set~
+        +IItem ItemData ~get; private set~
+        +Timer TimerData ~get; private set~ 
+        +IBoard BoardData ~get; private set~
+        +Position PositionData ~get; private set~ 
+        +OffScreen OffScreenData ~get; private set~ 
+        +CommunityPool CommunityPoolData ~get; private set~ 
+        +int CurrentRound ~get; private set~
+        +int maxPlayerNumber : readonly
+        +Dictionary<int,int> MaxHeroOnBoard ~get; private set~
+        +Dictionary<List<IHero>,int> SpecialStatHP ~get; private set~
+        +Action~IPlayer,CommunityPool~ OnOpenCommunityPool
+        +Action~IPlayer,CommunityPool~ OnRerollHero
+        +Action~IPlayer,CommunityPool~ OnPurchaseHero
+        +Action~IPlayer,CommunityPool~ OnSellHero
+        +Action~IPlayer,IHero,Timer~ OnStartRound
+        +Action~IPlayer,IHero,Timer~ OnStopRound
+        +Action~IHero,OffScreen~ OnRemoveDeadHero
+        +Func~IHero,IItem,bool~ OnCheckEquipItem         
+        +Func~IPlayer,SpecialStatHP,int~AddSpecialHeroStateHP
+        +Predicate~IPlayer~ OnCheckRoundWinner
+        +GameController(int maxPlayerNumber=8, IPlayer player, Timer timer, GameState gameState)
+        +SetGameState(GameState gameState)
+        +SetTimer(GameState gameState)
+        +AddPlayer(IPlayer player)
+        +AddAdditionalBot(IPlayer player) 
+        +AddPlayerExperience(IPlayer player, List<int,string> roundResult)
+        +AddPlayerGold(IPlayer player, List<int,string> roundResult)
+        +ReturnRoundResult(IPlayer player, IHero heroLeft)    
+        +DirectDamagePlayer(IPlayer player, IHero heroLeft)   
+        +RandomItemPosition(IItem item)
+        +SetMaxHeroOnBoard(IPlayer player) : int
+        +SetCanLeveUpHero(IHero hero, int countHero)   
+        +UpdatePlayerOrder(IPlayer player)   
+        +RemovePlayer(IPlayer player) 
+    }    
+    class Player {
+        +int PlayerId ~get; private set~
+        +string PlayerName ~get; private set~
+        +bool IsBot ~get; private set~
+        +string Password ~get; private set~
+        +List<IHero> HeroOwned ~get; private set~
+        +int Gold ~get; private set~
+        +int Level ~get; private set~
+        +int Experience ~get; private set~
+        +int PlayerHP ~get; private set~
+        +int WinStreak ~get; private set~
+        +Dictionary<int,bool> RoundResult ~get; private set~
+        +int MaxHeroOnBoard ~get; private set~
+        +Login(string playerName, string password)
+        +OpenCommunityPool()
+        +ReRollHero(int gold)
+        +PurchaseHero(int gold)
+        +PurchaseExperience(int gold)
+        +LevelUpPlayer(int level, int experience)
+        +WinRound(int round)
+        +SellHero(List<IHero>)
+    }    
+    class CommunityPool {
+        +List<IHero> HeroAvailable ~get; private set~
+        +OpenCommunityPool()
+        +GenerateRandomHeroes()
+        +RerollRandomHeroes()
+        +UpdateAvailableHeroes()
+        +CloseWindow()
+    }
+    class GameState {
+        <<enum>>
+        NonInitialized
+        Preparation
+        Ongoing
+        End
+    }
+    class IHero {
+        <<interface>>
+        +int HeroId ~get; private set~
+        +string HeroName ~get; private set~
+    }
+    class HeroClass {
+    <<enum>> 
+    Druid
+    Mech
+    Mage
+    }
+    class HeroRace {
+    <<enum>> 
+    Beast
+    Demon
+    Goblin
+    }
+    class Position {
+    <<struct>>
+        +int X ~get; private set~
+        +int Y ~get; private set~
+    }    
+    class IBoard {
+        <<interface>>
+        +Position PositionAvailable ~get; private set~
+    }
+    class Board {
+        +Position PositionAvailable ~get; private set~
+        +IsAvailable()
+    }
+    class Bench {
+        +Hero IdleHero ~get; private set~
+        +IsAvailable()
+    }
+    class OffScreen {
+        +Hero DeadHero ~get; private set~
+        +AddDeadHero()
+    }
+    class Hero{
+        +int HeroId ~get; private set~
+        +string HeroName ~get; private set~   
+        +int HeroLevel ~get; private set~    
+        +int HP ~get; private set~
+        +int Armor ~get; private set~
+        +int MagicResistance ~get; private set~
+        +int DamageToPlayer ~get; private set~
+        +int Atk ~get; private set~
+        +IItem itemEquipped ~get; private set~
+        +double AtkSpeed ~get; private set~
+        +HeroClass HeroClass ~get; private set~
+        +HeroRace HeroRace ~get; private set~
+        +bool CanLevelUp ~get; private set~
+        +int AvailableToPurchase ~get; private set~ 
+        +Position PositionChar ~get; private set~
+        +Spawn()
+        +MovePosition(Bench bench, IBoard board)
+        +Dead()
+        +FindClosestEnemy(Position position)
+        +Attack()
+        +MoveOnBoard()
+        +LevelUpHero()
+        +EquipItem()
+        +AddSpecialStat()
+    }
+    
+    class IItem{
+        +int ItemId ~get; private set~
+        +string ItemName ~get; private set~
+    }
+    class Item{
+        +int ItemId ~get; private set~
+        +string ItemName ~get; private set~
+        +string ItemDesc ~get; private set~      
+        +Position ~get; private set~
+        +Spawn()
+        +Disappear()
+        +SetItemPosition(Position position)
+    }
+    class Backpack{
+        +int BackpackId ~get; private set~
+        +int backpackMaxCapacity : readonly
+        +List<IItem> ListItem ~get; private set~
+        +StoresItem()
+        +Backpack(int backpackMaxCapacity = 10)
+    }

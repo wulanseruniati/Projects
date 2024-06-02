@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day14\DisposablePattern\bin\Debug\net8.0\DisposablePattern.exe
+D:\Bootcamp10\Projects\Day14\DisposablePattern\bin\Debug\net8.0\DisposablePattern.deps.json
+D:\Bootcamp10\Projects\Day14\DisposablePattern\bin\Debug\net8.0\DisposablePattern.runtimeconfig.json
+D:\Bootcamp10\Projects\Day14\DisposablePattern\bin\Debug\net8.0\DisposablePattern.dll
+D:\Bootcamp10\Projects\Day14\DisposablePattern\bin\Debug\net8.0\DisposablePattern.pdb
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.sourcelink.json
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.dll
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\refint\DisposablePattern.dll
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.pdb
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\DisposablePattern.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day14\DisposablePattern\obj\Debug\net8.0\ref\DisposablePattern.dll

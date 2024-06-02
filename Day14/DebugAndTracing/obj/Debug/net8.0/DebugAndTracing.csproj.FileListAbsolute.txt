@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\bin\Debug\net8.0\DebugAndTracing.exe
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\bin\Debug\net8.0\DebugAndTracing.deps.json
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\bin\Debug\net8.0\DebugAndTracing.runtimeconfig.json
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\bin\Debug\net8.0\DebugAndTracing.dll
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\bin\Debug\net8.0\DebugAndTracing.pdb
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.sourcelink.json
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.dll
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\refint\DebugAndTracing.dll
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.pdb
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\DebugAndTracing.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day14\DebugAndTracing\obj\Debug\net8.0\ref\DebugAndTracing.dll

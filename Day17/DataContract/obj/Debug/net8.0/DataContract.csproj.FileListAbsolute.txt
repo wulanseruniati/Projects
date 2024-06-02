@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day17\DataContract\bin\Debug\net8.0\DataContract.exe
+D:\Bootcamp10\Projects\Day17\DataContract\bin\Debug\net8.0\DataContract.deps.json
+D:\Bootcamp10\Projects\Day17\DataContract\bin\Debug\net8.0\DataContract.runtimeconfig.json
+D:\Bootcamp10\Projects\Day17\DataContract\bin\Debug\net8.0\DataContract.dll
+D:\Bootcamp10\Projects\Day17\DataContract\bin\Debug\net8.0\DataContract.pdb
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.sourcelink.json
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.dll
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\refint\DataContract.dll
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.pdb
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\DataContract.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day17\DataContract\obj\Debug\net8.0\ref\DataContract.dll

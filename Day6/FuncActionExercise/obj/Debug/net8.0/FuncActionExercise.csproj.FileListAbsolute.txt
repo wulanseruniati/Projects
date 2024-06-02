@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.sourcelink.json
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\bin\Debug\net8.0\FuncActionExercise.exe
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\bin\Debug\net8.0\FuncActionExercise.deps.json
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\bin\Debug\net8.0\FuncActionExercise.runtimeconfig.json
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\bin\Debug\net8.0\FuncActionExercise.dll
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\bin\Debug\net8.0\FuncActionExercise.pdb
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.dll
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\refint\FuncActionExercise.dll
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.pdb
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\FuncActionExercise.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day6\FuncActionExercise\obj\Debug\net8.0\ref\FuncActionExercise.dll

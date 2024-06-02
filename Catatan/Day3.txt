@@ -1,0 +1,71 @@
+Jenis penyimpanan:
+Stack -> menyimpan *value type* (yang sdh pasti). Yang disimpan -> variabel dan juga value : int, char, dll.
+Heap -> menyimpan *reference type* (belum jelas bentuknya). Yang disimpan -> variabel dan alamat : class, string.
+
+Saat copy :
+-stack -> yang di-copy valuenya. jadi dibuat alamat berbeda
+-heap -> yang di-copy alamatnya. jadi alamatnya sama
+
+Mengapa String reference type? 
+-Karena String immutable (tidak bisa di-edit). Jika diubah prosesnya adalah buat baru
+-Heap lebih besar alokasinya
+-String adalah collection of char
+-Fitur untuk mengubah String (tetap referensi ke alamat yg sama) : StringBuilder
+
+Polymorphism:
+-Static/ compile time : overloading - jumlah maupun tipe parameter berbeda
+-Dynamic : overriding - pakai kata kunci virtual di base class, override di child case
+
+kata "this" mereferensikan class tersebut
+kata "base" mereferensikan parent class
+
+Method hiding : jika membuat method dengan nama yang sama tapi mau ada dua-duanya.
+Tidak disarankan karena bikin bingung. Lebih disarankan pakai overriding.
+
+*Implicit Casting*
+int x = 10;
+double y = x;
+//karena ukuran memorinya lebih besar double jadi bisa
+
+*Explicit Casting*
+double a = 100.0;
+int b = (int)a;
+//karena ukuran memorinya lebih besar double harus di (int)
+
+Abstraction: proses mengabstraksi
+(method pada base class general, penerapannya bisa beda-beda di tiap child class)
+-Interface: kontrak - harus diterapkan tapi terserah penerapannya bagaimana, tidak boleh ada method yang seragam
+	-> implement
+	-> 1 class bisa menerapkan banyak interface
+-Abstract class: method override harus di-override, method tidak abstract tidak wajib di-override
+	-> inherit
+	-> 1 class hanya bisa 1 punya parent abstract class
+
+interface
+abstract class
+implement dan inherit
+
+*Boxing & Unboxing*
+Boxing							Unboxing
+-membungkus *value type* jadi *reference type*		-Membongkar *value* dari *reference type*
+
+int a = 10; //value type
+object b; //reference
+
+b = a; //boxing -> alokasi value type ke alamat
+
+int c;
+c = (int)b; //unboxing -> bongkar value dari reference type
+
+String ke Int :
+string NIK = "123";
+int nik = int.Parse(NIK);
+string NIKK = nik.ToString();
+//long untuk integer 64bit
+
+static : dibuat sekali saat program berjalan dan akan terus ada di memori selama aplikasi berjalan.
+	-> mereferensikan ke dirinya sendiri
+-class : udah dibuat di memory jadi ga bisa dibuat object - semua hrs static, ga support inheritance
+ Keuntungan :   supaya jangan bisa diubah2 (dari sisi method)
+		ga usah bikin object buat manggil method/ attribute nya
+		kembali ke dirinya sendiri - reference ke class

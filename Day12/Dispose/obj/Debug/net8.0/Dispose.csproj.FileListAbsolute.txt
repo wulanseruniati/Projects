@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day12\Dispose\bin\Debug\net8.0\Dispose.exe
+D:\Bootcamp10\Projects\Day12\Dispose\bin\Debug\net8.0\Dispose.deps.json
+D:\Bootcamp10\Projects\Day12\Dispose\bin\Debug\net8.0\Dispose.runtimeconfig.json
+D:\Bootcamp10\Projects\Day12\Dispose\bin\Debug\net8.0\Dispose.dll
+D:\Bootcamp10\Projects\Day12\Dispose\bin\Debug\net8.0\Dispose.pdb
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.sourcelink.json
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.dll
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\refint\Dispose.dll
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.pdb
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\Dispose.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day12\Dispose\obj\Debug\net8.0\ref\Dispose.dll

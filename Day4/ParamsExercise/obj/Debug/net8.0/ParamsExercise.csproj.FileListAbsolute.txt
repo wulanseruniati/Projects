@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day4\ParamsExercise\bin\Debug\net8.0\ParamsExercise.exe
+D:\Bootcamp10\Projects\Day4\ParamsExercise\bin\Debug\net8.0\ParamsExercise.deps.json
+D:\Bootcamp10\Projects\Day4\ParamsExercise\bin\Debug\net8.0\ParamsExercise.runtimeconfig.json
+D:\Bootcamp10\Projects\Day4\ParamsExercise\bin\Debug\net8.0\ParamsExercise.dll
+D:\Bootcamp10\Projects\Day4\ParamsExercise\bin\Debug\net8.0\ParamsExercise.pdb
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.sourcelink.json
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.dll
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\refint\ParamsExercise.dll
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.pdb
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ParamsExercise.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day4\ParamsExercise\obj\Debug\net8.0\ref\ParamsExercise.dll

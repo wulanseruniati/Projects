@@ -1,0 +1,58 @@
+synchronous : runtut
+asynchronous : bisa mengerjakan hal lain selagi menunggu
+thread : small execution path -> mengeksekusi setiap proses
+	 membagi resource dengan thread lain
+parallel programming : multicore
+
+*CPU management*
+
+-Threading-
+Foreground 	: program tdk akan berhenti sampai proses selesai
+		  penting, contoh: berhubungan dengan UI
+		  akses langsung UI
+Background 	: program bisa berhenti ketika background proses masih berlangsung
+		  bisa ditinggal2, contoh: backup data
+		  tidak bisa akses langsung UI
+
+thread sleep ga boleh dipake (ke-pause) -> menyebabkan thread blocking
+thread blocking (contoh thread sleep atau nunggu resource) -> alternatifnya pakai task - async await
+krn thread blocking bisa bikin progam nge-hang sejenak
+
+https://docs.google.com/document/d/1ixpv-tmbASxMca_AbatFvQ5L8t9JNpP4vPHYiDBKpig/edit?usp=sharing
+
+ISS -> setiap ada request masuk, pakai GC.Collect() karena keterbatasan memory
+
+-Task-
+-Dijalankan oleh Thread
+-Ada dua cara : instantiate dan langsung run
+-Task merupakan background thread yang "dipinjam" dari thread pool
+-Setelah selesai mengerjakan, thread dikembaliin ke threadpool
+-Thread pool -> thread nya tidak perlu di-manage satu per satu
+-Thread harus di-manage sendiri (bikin pake new, exception sendiri)
+
+Methods:
+-IsCompleted : apa udah selesai tasknya
+-IsCanceled : pakai cancellation token
+-IsFaulted : apakah gagal dan ada exception
+
+-Thread Pool-
+-Kumpulan background thread yang diatur oleh CLR
+-Thread - new : foreground 
+-Background thread di-manage CLR 
+
+Jika masih dalam 1 proses, semua thread bisa akses resource yang sama
+Race condition : jika ada lebih dari 1 thread mau akses/ubah 1 resource yang sama
+
+Mengatasi race condition:
+-Lock : selagi ada 1 thread yang akses, tidak bisa diakses thread lain
+	yang penting2 aja, jangan kebanyakan, jangan kelamaan diakses
+Lock bisa bikin masalah:
+-Deadlock : keadaan saling tunggu karena ketergantungan thread dan lock
+
+multi threading - input player name
+		- hitung score
+		- menampilkan GUI
+
+Foreground, background
+multi threading
+lock

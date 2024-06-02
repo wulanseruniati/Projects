@@ -1,0 +1,73 @@
+C/C++						C#
+Low level language - compile jd assembly	High Level language - IL (Intermediate Language)
+Memory allocate					Garbage Collector (automatic memory allocation)
+
+.NET -> environment local
+-BCL (Base Class Library) -> Microsoft Library
+-CLR (Common Language Runtime) -> Runtime (GC, JIT compiler : C# - (roslyn) - IL - (JIT) - assembly)
+
+Memory:
+-Stack (OS)
+
+-Heap :
+	-managed heap : all reference types
+	-unmanaged heap (di luar tanggung jawab .NET) : file handler, network connection, memory allocated 	 directly by the operating system (OS), library bhs lain -> developer hrs nyuruh bersihin manual
+tidak di-handle karena dibebaskan pada OS utk dikontrol scr langsung.
+OS atur I/O
+
+GC:
+-Gen 0 : newly created objects
+-Gen 1 : objects that survived garbage collector once
+-Gen 2 : static, long live objects, objects in LOH
+(plus LOH > 85kb)
+
+Trigger GC :
+-Low memory
+-Threshold
+
+Simulasi :
+-Bikin object 
+	Cat cat = new(); // masuk gen 0
+	Cat cat2 = new(); // masuk gen 0
+----------GC running--------------
+-Bikin object lagi
+	//cat diapus
+	Dog dog = new(); // masuk gen 0
+	Dog dog2 = cat2; // cat2 masuk gen 1, dog2 masuk gen 0
+----------GC running--------------
+-Bikin object lagi
+	//dog2 sm cat2 diapus
+	Pig pig = new(); // masuk gen 0
+	Pig pig2 = dog; // dog masuk gen 1, pig2 masuk gen 0
+
+Saat GC berjalan, semua proses dihentikan (freeze)
+
+Trigger GC:
+-berjalan scr periodically
+-Ketika membuat objek array, GC berjalan terus
+-alokasi memory ke LOH (bisa jadi)
+-dipanggil manual : GC.collect() 
+
+Cara GC memastikan mana objek yang boleh dibersihkan:
+Roots: titik awal mendeteksi apakah suatu objek masih hidup atau tidak : variable local, static, dll.
+Punya kategori apa saja yang bisa dijadikan root.
+GC periksa root, melakukan marking (tandai objek yang masih digunakan)
+Jika objek tidak ada marking akan dihapus
+ 
+Dispose : method yang digunakan untuk membebaskan unmanaged resource
+Pakai IDisposable : untuk memanggil method2nya.	
+
+Finalizer (Destructor) :
+-tidak disarankan dipakai karena jadi auto di-marking saat proses GC dijalankan	
+-gunanya untuk handle unmanaged resources yang sudah pasti ada
+
+Stream : aliran bit
+
+intellisense
+FileMode:
+Write
+Read
+Open
+Create
+
+DisposablePattern

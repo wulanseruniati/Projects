@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfHuman xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Human>
+    <Name>Yusa</Name>
+    <BirthPlace>Tulungagung</BirthPlace>
+    <Age>26</Age>
+  </Human>
+  <Human>
+    <Name>Ega</Name>
+    <BirthPlace>Semarang</BirthPlace>
+    <Age>22</Age>
+  </Human>
+  <Human>
+    <Name>Rizqi</Name>
+    <BirthPlace>Bandung</BirthPlace>
+    <Age>24</Age>
+  </Human>
+  <Human>
+    <Name>Fadl</Name>
+    <BirthPlace>Jakarta</BirthPlace>
+    <Age>23</Age>
+  </Human>
+  <Human>
+    <Name>Dewi</Name>
+    <BirthPlace>Pati</BirthPlace>
+    <Age>25</Age>
+  </Human>
+  <Human>
+    <Name>Wulan</Name>
+    <BirthPlace>Bandung</BirthPlace>
+    <Age>29</Age>
+  </Human>
+  <Human>
+    <Name>Bella</Name>
+    <BirthPlace>Kediri</BirthPlace>
+    <Age>24</Age>
+  </Human>
+  <Human>
+    <Name>Jun</Name>
+    <BirthPlace>Balikpapan</BirthPlace>
+    <Age>23</Age>
+  </Human>
+</ArrayOfHuman>

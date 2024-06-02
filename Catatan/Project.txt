@@ -1,0 +1,25 @@
+Project:
+1. Wajib implementasi OOP (abstraction)
+2. Wajib menggunakan delegates
+
+Topic: auto-chess
+
+Requirement:
+1. Functional-sistem ngapain aja (nambah player, menang spt apa)
+2. 
+
+Ada rush
+Ada poin2
+Ada bintang
+Ada cost : beli hero - taruh di board - bisa di-upgrade kalau ada 3 hero yg sama 
+- naik ke bintang yg lbh tinggi (bintang 1,1,1 jadi 2)
+Tiap hero punya attribute - dragon, warrior (sm status2nya, ada special ability) 
+-attack,defend
+
+class game controller
+-untuk mengatur aturan game
+-butuh agregation dari banyak kelas
+
+Abstraksi player yang sudah ada
+
+Delegate dan event untuk pergantian round, status game berubah dll

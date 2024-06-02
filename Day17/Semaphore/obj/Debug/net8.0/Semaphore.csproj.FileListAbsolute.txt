@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day17\Semaphore\bin\Debug\net8.0\Semaphore.exe
+D:\Bootcamp10\Projects\Day17\Semaphore\bin\Debug\net8.0\Semaphore.deps.json
+D:\Bootcamp10\Projects\Day17\Semaphore\bin\Debug\net8.0\Semaphore.runtimeconfig.json
+D:\Bootcamp10\Projects\Day17\Semaphore\bin\Debug\net8.0\Semaphore.dll
+D:\Bootcamp10\Projects\Day17\Semaphore\bin\Debug\net8.0\Semaphore.pdb
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.sourcelink.json
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.dll
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\refint\Semaphore.dll
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.pdb
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\Semaphore.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day17\Semaphore\obj\Debug\net8.0\ref\Semaphore.dll

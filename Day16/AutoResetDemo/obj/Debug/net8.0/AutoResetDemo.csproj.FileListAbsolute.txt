@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\bin\Debug\net8.0\AutoResetDemo.exe
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\bin\Debug\net8.0\AutoResetDemo.deps.json
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\bin\Debug\net8.0\AutoResetDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\bin\Debug\net8.0\AutoResetDemo.dll
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\bin\Debug\net8.0\AutoResetDemo.pdb
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.dll
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\refint\AutoResetDemo.dll
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.pdb
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\AutoResetDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\AutoResetDemo\obj\Debug\net8.0\ref\AutoResetDemo.dll

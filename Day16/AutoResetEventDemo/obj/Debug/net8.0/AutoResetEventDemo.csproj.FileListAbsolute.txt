@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\bin\Debug\net8.0\AutoResetEventDemo.exe
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\bin\Debug\net8.0\AutoResetEventDemo.deps.json
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\bin\Debug\net8.0\AutoResetEventDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\bin\Debug\net8.0\AutoResetEventDemo.dll
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\bin\Debug\net8.0\AutoResetEventDemo.pdb
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.dll
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\refint\AutoResetEventDemo.dll
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.pdb
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\AutoResetEventDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\AutoResetEventDemo\obj\Debug\net8.0\ref\AutoResetEventDemo.dll

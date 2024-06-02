@@ -1,0 +1,31 @@
+"auto chess" use case scenario:
+There are 8 players in the match.
+Every player starts the game with 100 HP.
+There are two modes : preparation and gameplay (both have certain time limit).
+During preparation, player can purchase heroes from community pool.
+In the community pool, there are 5 random heroes available to purchase.
+Player could re-roll the heroes available to purchase by using gold.
+The heroes bought could be sold again later with the same price.
+At the start of the game, player get initial amount of gold.
+During gameplay, player can place heroes from bench to the board and remove heroes from board to the bench.
+After getting placed on the board, heroes would start attacking other players' heroes.
+Player could place max 10 heroes on the board, based on level.
+During the first 3 rounds, there are bot that fight the heroes.
+Heroes could have 5 different categories, 13 different races and 10 different classes.
+Heroes have different stats (HP, Armor, Magic Reistance, Damage to Chess Player, ATK, ATK Speed).
+Heroes whose HP is zero would disappear off-screen.
+Some heroes have gain bonus stat depends on other heroes existed (same class or same race) on the board.
+During playgame, player could collect items from the board.
+Items could be stored in backpack, combined with other items, or equipped to hero.
+If player has three same heroes with the same star level, the player could level up the hero.
+Players who don't have any hero left on the board would get damage from heroes remaining on the board (-2/hero).
+There are maximum of 30 rounds every game.
+After every round, player gain certain amount of gold and experience.
+The amount of gold the player gain depends on how much gold the player has.
+The amount of experience the player gain depends on the player's winstreak.
+Player would level up after getting enough experience. Player could buy experience with gold.
+After a round is finished, the heroes who died would be respawn on the board with full HP, mana.
+Player whose HP reach zero is losing the game.
+Player could give up during the game in round 15.
+Every game has one winner, which is the last standing player.
+

@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day15\LockDemo1\bin\Debug\net8.0\LockDemo1.exe
+D:\Bootcamp10\Projects\Day15\LockDemo1\bin\Debug\net8.0\LockDemo1.deps.json
+D:\Bootcamp10\Projects\Day15\LockDemo1\bin\Debug\net8.0\LockDemo1.runtimeconfig.json
+D:\Bootcamp10\Projects\Day15\LockDemo1\bin\Debug\net8.0\LockDemo1.dll
+D:\Bootcamp10\Projects\Day15\LockDemo1\bin\Debug\net8.0\LockDemo1.pdb
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.sourcelink.json
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.dll
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\refint\LockDemo1.dll
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.pdb
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\LockDemo1.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day15\LockDemo1\obj\Debug\net8.0\ref\LockDemo1.dll

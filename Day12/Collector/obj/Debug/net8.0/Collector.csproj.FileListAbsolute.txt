@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day12\Collector\bin\Debug\net8.0\Collector.exe
+D:\Bootcamp10\Projects\Day12\Collector\bin\Debug\net8.0\Collector.deps.json
+D:\Bootcamp10\Projects\Day12\Collector\bin\Debug\net8.0\Collector.runtimeconfig.json
+D:\Bootcamp10\Projects\Day12\Collector\bin\Debug\net8.0\Collector.dll
+D:\Bootcamp10\Projects\Day12\Collector\bin\Debug\net8.0\Collector.pdb
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.sourcelink.json
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.dll
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\refint\Collector.dll
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.pdb
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\Collector.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day12\Collector\obj\Debug\net8.0\ref\Collector.dll

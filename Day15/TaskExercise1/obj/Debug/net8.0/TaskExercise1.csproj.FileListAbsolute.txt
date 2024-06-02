@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day15\TaskExercise1\bin\Debug\net8.0\TaskExercise1.exe
+D:\Bootcamp10\Projects\Day15\TaskExercise1\bin\Debug\net8.0\TaskExercise1.deps.json
+D:\Bootcamp10\Projects\Day15\TaskExercise1\bin\Debug\net8.0\TaskExercise1.runtimeconfig.json
+D:\Bootcamp10\Projects\Day15\TaskExercise1\bin\Debug\net8.0\TaskExercise1.dll
+D:\Bootcamp10\Projects\Day15\TaskExercise1\bin\Debug\net8.0\TaskExercise1.pdb
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.sourcelink.json
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.dll
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\refint\TaskExercise1.dll
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.pdb
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\TaskExercise1.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day15\TaskExercise1\obj\Debug\net8.0\ref\TaskExercise1.dll

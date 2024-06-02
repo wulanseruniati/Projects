@@ -1,0 +1,39 @@
+Noun:
+Player - IPlayer -
+IHero - Hero
+Bot
+Community Pool
+Bench
+Board - IBoard
+Off Screen
+Item
+Backpack
+HeroClass (enum)
+HeroRace (enum)
+Game Controller (class)
+Position (struct)
+
+Attribute Player (PlayerData) :
+Gold,Experience
+
+Relation:
+player enter community pool
+player purchase heroes
+player re-roll the heroes available to purchase
+player sell heroes
+hero spawn on the bench
+player move hero from the bench to board
+player move hero from the board to bench
+hero attacks bot / other heroes
+bot attacks hero
+hero gains bonus stat
+hero disappears off-screen
+player collects items
+player level-up heroes
+hero attacks player whose hero is all dead
+hero gains experience
+hero gains gold
+player level up
+hero buy experience
+hero respawn on the board
+player gives up the game

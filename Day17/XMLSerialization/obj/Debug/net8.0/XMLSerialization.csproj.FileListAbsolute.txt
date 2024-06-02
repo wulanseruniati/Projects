@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day17\XMLSerialization\bin\Debug\net8.0\XMLSerialization.exe
+D:\Bootcamp10\Projects\Day17\XMLSerialization\bin\Debug\net8.0\XMLSerialization.deps.json
+D:\Bootcamp10\Projects\Day17\XMLSerialization\bin\Debug\net8.0\XMLSerialization.runtimeconfig.json
+D:\Bootcamp10\Projects\Day17\XMLSerialization\bin\Debug\net8.0\XMLSerialization.dll
+D:\Bootcamp10\Projects\Day17\XMLSerialization\bin\Debug\net8.0\XMLSerialization.pdb
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.sourcelink.json
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.dll
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\refint\XMLSerialization.dll
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.pdb
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\XMLSerialization.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day17\XMLSerialization\obj\Debug\net8.0\ref\XMLSerialization.dll

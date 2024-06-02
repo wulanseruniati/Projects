@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day3\StaticDemo\bin\Debug\net8.0\StaticDemo.exe
+D:\Bootcamp10\Projects\Day3\StaticDemo\bin\Debug\net8.0\StaticDemo.deps.json
+D:\Bootcamp10\Projects\Day3\StaticDemo\bin\Debug\net8.0\StaticDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day3\StaticDemo\bin\Debug\net8.0\StaticDemo.dll
+D:\Bootcamp10\Projects\Day3\StaticDemo\bin\Debug\net8.0\StaticDemo.pdb
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.dll
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\refint\StaticDemo.dll
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.pdb
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\StaticDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day3\StaticDemo\obj\Debug\net8.0\ref\StaticDemo.dll

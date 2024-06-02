@@ -1,0 +1,50 @@
+StringBuilder : string versi mutable
+
+Base class finalizer:
+child duluan karena tidak direferensikan
+parent karena direferensikan child
+grandparent karena direferensikan parent (terakhir)
+
+GC.WaitForPendingFinalizers(); untuk nunggu finalizer jalan
+
+Finally :
+block code yang akan tetap dijalankan baik ada error di catch maupun tidak
+
+Disposable pattern :
+implement IDisposable
+manggil GC.SuppressFinalize supaya finalizer tidak usah dipanggil
+
+akan true jika dispose sudah dijalankan
+private bool isDisposed = false;
+
+using() {} - sepaket dengan dispose untuk menggantikan try-catch-finally
+
+Debug (proses mendeteksi adanya error/kekurangan di program u/ menyempurnakan program) :
+-identify
+-set breakpoint
+-analyze
+-fixing
+-testing
+
+Step VS Code :
+-Pilih Run and Debug
+-Create Breakpoints
+-Start Debugging
+-Di sebelah kiri akan di-show Locals
+
+Step over : udah percaya fungsi tertentu ga ada bug
+Step into : curiga ada bug
+
+Tracing : menelusuri alur kerja (flow) dari program/ sistem (alur saja)
+Saat Trace harus Flush (Flushes the output buffer, and causes buffered data to be written to the Listeners.)
+
+Profiling : melacak penggunaan memory.
+
+Logging : mencatat semua yang terjadi pada program (semua dicatat).
+
+Conditional Compilation:
+//default (saat pake dotnet run) di obj ada folder Debug
+DEBUG : output besar, complex (banyak informasi ttg program), ada debugging tambahan
+RELEASE (untuk deployment) : yang penting2 aja informasinya
+
+Ubah versi di assembly (tapi unsafe)

@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\bin\Debug\net8.0\ConditionalCompilation.exe
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\bin\Debug\net8.0\ConditionalCompilation.deps.json
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\bin\Debug\net8.0\ConditionalCompilation.runtimeconfig.json
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\bin\Debug\net8.0\ConditionalCompilation.dll
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\bin\Debug\net8.0\ConditionalCompilation.pdb
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.sourcelink.json
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.dll
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\refint\ConditionalCompilation.dll
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.pdb
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ConditionalCompilation.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day14\ConditionalCompilation\obj\Debug\net8.0\ref\ConditionalCompilation.dll

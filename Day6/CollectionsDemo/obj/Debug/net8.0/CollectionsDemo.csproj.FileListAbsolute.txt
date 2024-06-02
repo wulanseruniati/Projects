@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\bin\Debug\net8.0\CollectionsDemo.exe
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\bin\Debug\net8.0\CollectionsDemo.deps.json
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\bin\Debug\net8.0\CollectionsDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\bin\Debug\net8.0\CollectionsDemo.dll
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\bin\Debug\net8.0\CollectionsDemo.pdb
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.dll
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\refint\CollectionsDemo.dll
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.pdb
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\CollectionsDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day6\CollectionsDemo\obj\Debug\net8.0\ref\CollectionsDemo.dll

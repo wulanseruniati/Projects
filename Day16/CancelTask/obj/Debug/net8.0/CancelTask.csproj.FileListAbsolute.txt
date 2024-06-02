@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.sourcelink.json
+D:\Bootcamp10\Projects\Day16\CancelTask\bin\Debug\net8.0\CancelTask.exe
+D:\Bootcamp10\Projects\Day16\CancelTask\bin\Debug\net8.0\CancelTask.deps.json
+D:\Bootcamp10\Projects\Day16\CancelTask\bin\Debug\net8.0\CancelTask.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\CancelTask\bin\Debug\net8.0\CancelTask.dll
+D:\Bootcamp10\Projects\Day16\CancelTask\bin\Debug\net8.0\CancelTask.pdb
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.dll
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\refint\CancelTask.dll
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.pdb
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\CancelTask.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\CancelTask\obj\Debug\net8.0\ref\CancelTask.dll

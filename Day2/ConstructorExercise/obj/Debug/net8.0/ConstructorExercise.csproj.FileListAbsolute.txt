@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.sourcelink.json
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\bin\Debug\net8.0\ConstructorExercise.exe
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\bin\Debug\net8.0\ConstructorExercise.deps.json
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\bin\Debug\net8.0\ConstructorExercise.runtimeconfig.json
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\bin\Debug\net8.0\ConstructorExercise.dll
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\bin\Debug\net8.0\ConstructorExercise.pdb
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.dll
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\refint\ConstructorExercise.dll
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.pdb
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ConstructorExercise.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day2\ConstructorExercise\obj\Debug\net8.0\ref\ConstructorExercise.dll

@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\RaceCondition\bin\Debug\net8.0\RaceCondition.exe
+D:\Bootcamp10\Projects\Day16\RaceCondition\bin\Debug\net8.0\RaceCondition.deps.json
+D:\Bootcamp10\Projects\Day16\RaceCondition\bin\Debug\net8.0\RaceCondition.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\RaceCondition\bin\Debug\net8.0\RaceCondition.dll
+D:\Bootcamp10\Projects\Day16\RaceCondition\bin\Debug\net8.0\RaceCondition.pdb
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.sourcelink.json
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.dll
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\refint\RaceCondition.dll
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.pdb
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\RaceCondition.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\RaceCondition\obj\Debug\net8.0\ref\RaceCondition.dll

@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.sourcelink.json
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\bin\Debug\net8.0\EventHandlerDemo3.exe
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\bin\Debug\net8.0\EventHandlerDemo3.deps.json
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\bin\Debug\net8.0\EventHandlerDemo3.runtimeconfig.json
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\bin\Debug\net8.0\EventHandlerDemo3.dll
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\bin\Debug\net8.0\EventHandlerDemo3.pdb
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.dll
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\refint\EventHandlerDemo3.dll
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.pdb
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\EventHandlerDemo3.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day5\EventHandlerDemo3\obj\Debug\net8.0\ref\EventHandlerDemo3.dll

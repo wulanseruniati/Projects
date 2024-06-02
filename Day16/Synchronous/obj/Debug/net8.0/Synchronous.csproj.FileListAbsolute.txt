@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\Synchronous\bin\Debug\net8.0\Synchronous.exe
+D:\Bootcamp10\Projects\Day16\Synchronous\bin\Debug\net8.0\Synchronous.deps.json
+D:\Bootcamp10\Projects\Day16\Synchronous\bin\Debug\net8.0\Synchronous.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\Synchronous\bin\Debug\net8.0\Synchronous.dll
+D:\Bootcamp10\Projects\Day16\Synchronous\bin\Debug\net8.0\Synchronous.pdb
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.sourcelink.json
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.dll
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\refint\Synchronous.dll
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.pdb
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\Synchronous.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\Synchronous\obj\Debug\net8.0\ref\Synchronous.dll

@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\bin\Debug\net8.0\DataTypeDemo.exe
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\bin\Debug\net8.0\DataTypeDemo.deps.json
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\bin\Debug\net8.0\DataTypeDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\bin\Debug\net8.0\DataTypeDemo.dll
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\bin\Debug\net8.0\DataTypeDemo.pdb
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.dll
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\refint\DataTypeDemo.dll
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.pdb
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\DataTypeDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day3\DataTypeDemo\obj\Debug\net8.0\ref\DataTypeDemo.dll

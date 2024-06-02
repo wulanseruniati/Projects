@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\bin\Debug\net8.0\ExceptionDemo1.exe
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\bin\Debug\net8.0\ExceptionDemo1.deps.json
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\bin\Debug\net8.0\ExceptionDemo1.runtimeconfig.json
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\bin\Debug\net8.0\ExceptionDemo1.dll
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\bin\Debug\net8.0\ExceptionDemo1.pdb
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.sourcelink.json
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.dll
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\refint\ExceptionDemo1.dll
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.pdb
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ExceptionDemo1.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day5\ExceptionDemo1\obj\Debug\net8.0\ref\ExceptionDemo1.dll

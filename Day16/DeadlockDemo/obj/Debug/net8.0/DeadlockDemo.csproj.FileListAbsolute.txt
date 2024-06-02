@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.sourcelink.json
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\bin\Debug\net8.0\DeadlockDemo.exe
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\bin\Debug\net8.0\DeadlockDemo.deps.json
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\bin\Debug\net8.0\DeadlockDemo.runtimeconfig.json
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\bin\Debug\net8.0\DeadlockDemo.dll
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\bin\Debug\net8.0\DeadlockDemo.pdb
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.dll
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\refint\DeadlockDemo.dll
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.pdb
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\DeadlockDemo.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day16\DeadlockDemo\obj\Debug\net8.0\ref\DeadlockDemo.dll
