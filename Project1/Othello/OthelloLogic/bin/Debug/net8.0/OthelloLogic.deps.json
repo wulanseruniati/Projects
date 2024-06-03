@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "OthelloLogic/1.0.0": {
+        "runtime": {
+          "OthelloLogic.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OthelloLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

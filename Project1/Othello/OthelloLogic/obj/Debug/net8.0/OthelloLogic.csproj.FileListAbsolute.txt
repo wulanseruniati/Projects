@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.exe
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.deps.json
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.runtimeconfig.json
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.dll
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.pdb
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.sourcelink.json
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.dll
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\refint\OthelloLogic.dll
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.pdb
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Project1\Othello\OthelloLogic\obj\Debug\net8.0\ref\OthelloLogic.dll

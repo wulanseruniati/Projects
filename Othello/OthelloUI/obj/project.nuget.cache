@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "KG22tA8OOsM=",
+  "dgSpecHash": "A8IHy5DpyFxj7SD5f0B+dKxJ7LCQf8qSCaujnvFcNYgrjSeXeQcZ1w4voy8YChJLu2ae3n4g83NKl22fjibaGQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\linwu\\source\\repos\\Othello\\OthelloUI\\OthelloUI.csproj",
+  "projectFilePath": "D:\\Bootcamp10\\Projects\\Othello\\OthelloUI\\OthelloUI.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\linwu\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\Batch 10\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
