@@ -1,0 +1,52 @@
+Thread Synchronization:
+-lock
+-monitor enter
+-signaling (AutoResetEvent)
+-semaphore
+
+Semaphore
+-membatasi jml thread yg bisa mengakses suatu resource
+-semaphore slim lebih ringan tapi ga bisa antar proses
+
+-semaphore dan mutex bisa antar proses (jadi berat, mahal)
+
+*stream*
+-aliran byte yang masuk dan keluar dari program
+-komputer di-design based on byte jadi yg ditransfer byte juga jadi standard di komputer skrg
+-kalau pakai bit terlalu banyak proses yg dibutuhkan
+-recommended pakai async method karena slow (I/O)
+
+*backing store stream* : bisa diotak atik, berguna
+-File stream
+-Memory stream
+-Network stream
+
+*decorator stream* : optional, supaya lebih aman
+-crypto : enkrispi, hashing
+-buffer : bukan stream, hanya membungkus stream yang sudah ada supaya lebih efisien proses pembacaannya
+(ditahan dulu sampai kapasitas terpenuhi lalu dikirim - spt IDM, torrent)
+proses kirimnya serialization, proses terimanya deserialization
+cache data, reduce calls, improve read/write performance but not simultaneously
+
+*stream adapter* : untuk membaca, tulis (perubahan pada file) - convert jadi byte
+encoding UTF-8 : semua aksara masuk di sini (kanji dll)
+
+*Seeking* : memindahkan posisi string ke spesifik location
+
+*Filestream* - lebih banyak kapabilitas
+*StreamWriter & StreamReader* - lebih simple, hanya untuk file txt saja
+
+*Serialization & Deserialization (JSON,XML)*
+-Typeof : butuh kejelasan tipe 
+
+*Data Contract*
+memberi tahu suatu kelas bisa di-serialize
+
+Assemblies:
+-DLL
+-EXE
+
+references:
+-references - projects : add projek lain yang satu assembly
+-packages : NuGet package
+-kalau mau bikin DLL, pilih Class Library jangan Console App

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\black.png" />
+    <None Remove="Assets\CursorB.cur" />
+    <None Remove="Assets\CursorW.cur" />
+    <None Remove="Assets\reversi_board.png" />
+    <None Remove="Assets\side_disc.png" />
+    <None Remove="Assets\white.png" />
+    <None Remove="Assets\wooden_back.jpg" />
+    <None Remove="Assets\woodpanel.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OthelloLogic\OthelloLogic.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\black.png" />
+    <Resource Include="Assets\CursorB.cur" />
+    <Resource Include="Assets\CursorW.cur" />
+    <Resource Include="Assets\reversi_board.png" />
+    <Resource Include="Assets\side_disc.png" />
+    <Resource Include="Assets\white.png" />
+    <Resource Include="Assets\wooden_back.jpg" />
+    <Resource Include="Assets\woodpanel.jpg" />
+  </ItemGroup>
+
+</Project>
