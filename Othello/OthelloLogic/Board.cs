@@ -1,6 +1,6 @@
 ﻿namespace OthelloLogic
 {
-    public class Board
+    public class Board : IBoard
     {
         public Guid BoardId { get; private set; }
         public Board()

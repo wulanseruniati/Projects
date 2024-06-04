@@ -1,6 +1,6 @@
 ﻿namespace OthelloLogic
 {
-    public class Disc
+    public class Disc : IDisc
     {
         public Guid DiscId { get; private set; }
         public Color Color { get; private set; }

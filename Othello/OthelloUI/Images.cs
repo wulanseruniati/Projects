@@ -28,7 +28,7 @@ namespace OthelloUI
             };
         }
 
-        public static ImageSource GetImage(Disc disc)
+        public static ImageSource GetImage(IDisc disc)
         {
             return (disc == null) ? null : GetImage(disc.Color);
         }

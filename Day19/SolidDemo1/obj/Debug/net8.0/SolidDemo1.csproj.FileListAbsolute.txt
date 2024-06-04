@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day19\SolidDemo1\bin\Debug\net8.0\SolidDemo1.exe
+D:\Bootcamp10\Projects\Day19\SolidDemo1\bin\Debug\net8.0\SolidDemo1.deps.json
+D:\Bootcamp10\Projects\Day19\SolidDemo1\bin\Debug\net8.0\SolidDemo1.runtimeconfig.json
+D:\Bootcamp10\Projects\Day19\SolidDemo1\bin\Debug\net8.0\SolidDemo1.dll
+D:\Bootcamp10\Projects\Day19\SolidDemo1\bin\Debug\net8.0\SolidDemo1.pdb
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.sourcelink.json
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.dll
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\refint\SolidDemo1.dll
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.pdb
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\SolidDemo1.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day19\SolidDemo1\obj\Debug\net8.0\ref\SolidDemo1.dll

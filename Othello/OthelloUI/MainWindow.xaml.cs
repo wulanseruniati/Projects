@@ -97,8 +97,8 @@ namespace OthelloUI
             {
                 for (int c = 0; c < GameController.boardsize; c++)
                 {
-                    Disc[,] discOnBoard = gameController.GetDiscsOnBoard(gameController.Board);
-                    Disc disc = discOnBoard[r, c];
+                    IDisc[,] discOnBoard = gameController.GetDiscsOnBoard(gameController.Board);
+                    IDisc disc = discOnBoard[r, c];
                     _discImages[r, c].Source = Images.GetImage(disc);
                 }
             }

@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\linwu\\source\\repos\\Othello\\",
+  "WorkspaceRootPath": "C:\\Users\\Batch 10\\source\\repos\\Othello\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D30887E8-A1D1-4E66-A951-BAE45396EA79}|OthelloLogic\\OthelloLogic.csproj|c:\\users\\linwu\\source\\repos\\othello\\othellologic\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D30887E8-A1D1-4E66-A951-BAE45396EA79}|OthelloLogic\\OthelloLogic.csproj|c:\\users\\batch 10\\source\\repos\\othello\\othellologic\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D30887E8-A1D1-4E66-A951-BAE45396EA79}|OthelloLogic\\OthelloLogic.csproj|solutionrelative:othellologic\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D30887E8-A1D1-4E66-A951-BAE45396EA79}|OthelloLogic\\OthelloLogic.csproj|c:\\users\\linwu\\source\\repos\\othello\\othellologic\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D30887E8-A1D1-4E66-A951-BAE45396EA79}|OthelloLogic\\OthelloLogic.csproj|solutionrelative:othellologic\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|c:\\users\\batch 10\\source\\repos\\othello\\othelloui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|solutionrelative:othelloui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|c:\\users\\linwu\\source\\repos\\othello\\othelloui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|solutionrelative:othelloui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|c:\\users\\batch 10\\source\\repos\\othello\\othelloui\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|solutionrelative:othelloui\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D30887E8-A1D1-4E66-A951-BAE45396EA79}|OthelloLogic\\OthelloLogic.csproj|c:\\users\\batch 10\\source\\repos\\othello\\othellologic\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D30887E8-A1D1-4E66-A951-BAE45396EA79}|OthelloLogic\\OthelloLogic.csproj|solutionrelative:othellologic\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FileManager.cs",
-              "DocumentMoniker": "C:\\Users\\linwu\\source\\repos\\Othello\\OthelloLogic\\FileManager.cs",
-              "RelativeDocumentMoniker": "OthelloLogic\\FileManager.cs",
-              "ToolTip": "C:\\Users\\linwu\\source\\repos\\Othello\\OthelloLogic\\FileManager.cs",
-              "RelativeToolTip": "OthelloLogic\\FileManager.cs",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAkwHwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T13:15:55.651Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "GameController.cs",
-              "DocumentMoniker": "C:\\Users\\linwu\\source\\repos\\Othello\\OthelloLogic\\GameController.cs",
+              "DocumentMoniker": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloLogic\\GameController.cs",
               "RelativeDocumentMoniker": "OthelloLogic\\GameController.cs",
-              "ToolTip": "C:\\Users\\linwu\\source\\repos\\Othello\\OthelloLogic\\GameController.cs",
+              "ToolTip": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloLogic\\GameController.cs",
               "RelativeToolTip": "OthelloLogic\\GameController.cs",
-              "ViewState": "AQIAAIsAAAAAAAAAAIAwwJMAAAAJAAAA",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAewEoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-31T12:07:29.739Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Images.cs",
+              "DocumentMoniker": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloUI\\Images.cs",
+              "RelativeDocumentMoniker": "OthelloUI\\Images.cs",
+              "ToolTip": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloUI\\Images.cs",
+              "RelativeToolTip": "OthelloUI\\Images.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwB4AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T06:51:23.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FileManager.cs",
+              "DocumentMoniker": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloLogic\\FileManager.cs",
+              "RelativeDocumentMoniker": "OthelloLogic\\FileManager.cs",
+              "ToolTip": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloLogic\\FileManager.cs",
+              "RelativeToolTip": "OthelloLogic\\FileManager.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswE8AAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T06:50:28.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\linwu\\source\\repos\\Othello\\OthelloUI\\MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "OthelloUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\linwu\\source\\repos\\Othello\\OthelloUI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Batch 10\\source\\repos\\Othello\\OthelloUI\\MainWindow.xaml.cs",
               "RelativeToolTip": "OthelloUI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAO8AAAAAAAAAAAAAAPcAAAABAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAYwGUAAABFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T10:46:41.008Z",
               "EditorCaption": ""

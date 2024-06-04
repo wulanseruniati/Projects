@@ -55,7 +55,7 @@ namespace OthelloLogic
             return System.Text.Json.JsonSerializer.Deserialize<Dictionary<Color, Player>>(result);
         }
         //write board data into JSON file
-        public static void CreateDiscData(Disc[,] discs)
+        public static void CreateDiscData(IDisc[,] discs)
         {
             //creating a dictionary
             Dictionary<Position, Color> dictionary = new Dictionary<Position, Color>();

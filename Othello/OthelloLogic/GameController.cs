@@ -16,10 +16,10 @@ namespace OthelloLogic
         public Board Board { get; private set; }
         //private Disc[,] _discsOnBoard;
         private Dictionary<Color, IPlayer> _playerColors = new Dictionary<Color, IPlayer>();
-        private Dictionary<Board, List<IPlayer>> _playersOnBoard;
+        private Dictionary<IBoard, List<IPlayer>> _playersOnBoard;
         private Dictionary<Color, int> _discCount;
         private Dictionary<Position, List<Position>> _legalMoves;
-        private Dictionary<Board, Disc[,]> _discsOnBoard = new Dictionary<Board, Disc[,]>();
+        private Dictionary<IBoard, IDisc[,]> _discsOnBoard = new Dictionary<IBoard, IDisc[,]>();
         private bool _hasSkipped = false;
         //default delegates
         public Action<string, string> WriteLogMessage;
@@ -51,33 +51,33 @@ namespace OthelloLogic
         }
 
         //getter for all _playersOnBoard
-        public Dictionary<Board, List<IPlayer>> GetAllPlayersOnBoard()
+        public Dictionary<IBoard, List<IPlayer>> GetAllPlayersOnBoard()
         {
             return _playersOnBoard;
         }
         //getter for certain _playersOnBoard
-        public List<IPlayer> GetPlayersOnBoard(Board board)
+        public List<IPlayer> GetPlayersOnBoard(IBoard board)
         {
             return _playersOnBoard[board];
         }
         //setter for _playersOnBoard
-        public void SetPlayersOnBoard(Dictionary<Board, List<IPlayer>> playersOnBoard)
+        public void SetPlayersOnBoard(Dictionary<IBoard, List<IPlayer>> playersOnBoard)
         {
             _playersOnBoard = playersOnBoard;
         }
 
         // Getter method for _discsOnBoard
-        public Dictionary<Board, Disc[,]> GetAllDiscsOnBoard()
+        public Dictionary<IBoard, IDisc[,]> GetAllDiscsOnBoard()
         {
             return _discsOnBoard;
         }
-        public Disc[,] GetDiscsOnBoard(Board board)
+        public IDisc[,] GetDiscsOnBoard(IBoard board)
         {
             return _discsOnBoard[board];
         }
 
         // Setter method for _discsOnBoard
-        public void SetDiscsOnBoard(Dictionary<Board, Disc[,]> value)
+        public void SetDiscsOnBoard(Dictionary<IBoard, IDisc[,]> value)
         {
             _discsOnBoard = value;
         }
