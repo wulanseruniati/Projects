@@ -1,0 +1,24 @@
+C:\Users\linwu\source\repos\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.deps.json
+C:\Users\linwu\source\repos\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.dll
+C:\Users\linwu\source\repos\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.pdb
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.csproj.AssemblyReference.cache
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.AssemblyInfoInputs.cache
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.AssemblyInfo.cs
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.csproj.CoreCompileInputs.cache
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.dll
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\refint\OthelloLogic.dll
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.pdb
+C:\Users\linwu\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\ref\OthelloLogic.dll
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.deps.json
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.dll
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\bin\Debug\net8.0\OthelloLogic.pdb
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.csproj.AssemblyReference.cache
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.AssemblyInfoInputs.cache
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.AssemblyInfo.cs
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.csproj.CoreCompileInputs.cache
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.dll
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\refint\OthelloLogic.dll
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\OthelloLogic.pdb
+C:\Users\Batch 10\source\repos\Othello\OthelloLogic\obj\Debug\net8.0\ref\OthelloLogic.dll

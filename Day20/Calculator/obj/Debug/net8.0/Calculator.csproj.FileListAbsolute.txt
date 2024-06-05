@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day20\Calculator\bin\Debug\net8.0\Calculator.exe
+D:\Bootcamp10\Projects\Day20\Calculator\bin\Debug\net8.0\Calculator.deps.json
+D:\Bootcamp10\Projects\Day20\Calculator\bin\Debug\net8.0\Calculator.runtimeconfig.json
+D:\Bootcamp10\Projects\Day20\Calculator\bin\Debug\net8.0\Calculator.dll
+D:\Bootcamp10\Projects\Day20\Calculator\bin\Debug\net8.0\Calculator.pdb
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.dll
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.pdb
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day20\Calculator\obj\Debug\net8.0\ref\Calculator.dll

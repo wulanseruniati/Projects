@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "WNvj8AAIWpg=",
+  "success": true,
+  "projectFilePath": "D:\\Bootcamp10\\Projects\\Day20\\SimpleProcess\\SimpleProcess.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Batch 10\\.nuget\\packages\\nlog\\5.3.2\\nlog.5.3.2.nupkg.sha512",
+    "C:\\Users\\Batch 10\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\Batch 10\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+Unit testing : membandingkan hasil dr suatu method dgn yg seharusnya
+NUnit : pengujian unit
+SetUp : pembuatan objek
+Test  : Arrange (bikin variabel), Action (manggil method), Assert (sesuai ga)
+pakai dotnet test
+xunit untuk projek lebih kecil dan ga ada interaksi ke UI
+
+NuGet Package Manager:
+https://www.nuget.org/packages/NLog
+buka, copy, paste di terminal
+NLOG : support structure logging
+bikinfile nlog.config
