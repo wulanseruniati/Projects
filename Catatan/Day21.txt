@@ -1,0 +1,36 @@
+Installation:
+https://sqlitestudio.pl/
+	-> download then install
+	-> after the installation finished, open CMD. Type sqlite3, if the version shows up, good
+https://code.google.com/archive/p/northwindextended/downloads
+	-> download then extract, copy to the project path
+
+Create a new project :
+	-> install package:
+		->add package Microsoft.EntityFrameworkCore
+		->add package Microsoft.EntityFrameworkCore.Design
+		->add package Microsoft.EntityFrameworkCore.Sqlite
+	-> on the terminal :
+		->sqlite3 Northwind --init Northwind.Sqlite3.sql
+		->dotnet tool install dotnet-ef --global
+		->dotnet tool list --global (just to make sure the packages installed correctly)
+
+Create table in .NET SQLite :
+-bikin class
+-penamaan jamak utk tabel
+-FK
+-Class sbg penghubung
+
+To commit :
+	-> on the terminal :
+		->dotnet ef migrations add "Initialize Database"
+		->dotnet ef database update
+
+Utk database lain:
+OnConfiguring : jadi postgre dll bisa di sini
+must install:
+Npgsql.EntityFrameworkCore.PostgreSql
+PostgreSql
+
+utk panggil:
+optionsBuilder.Nqgsql("Host=localhost;Port=5432;Database=myDB;Username=postgre;Password=postgre");

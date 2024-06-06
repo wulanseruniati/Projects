@@ -85,7 +85,7 @@ namespace OthelloUI {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/OthelloUI;component/adduser.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/OthelloUI;V1.0.0.0;component/adduser.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddUser.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
