@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day22\Prototype\bin\Debug\net8.0\Prototype.exe
+D:\Bootcamp10\Projects\Day22\Prototype\bin\Debug\net8.0\Prototype.deps.json
+D:\Bootcamp10\Projects\Day22\Prototype\bin\Debug\net8.0\Prototype.runtimeconfig.json
+D:\Bootcamp10\Projects\Day22\Prototype\bin\Debug\net8.0\Prototype.dll
+D:\Bootcamp10\Projects\Day22\Prototype\bin\Debug\net8.0\Prototype.pdb
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.sourcelink.json
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.dll
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\refint\Prototype.dll
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.pdb
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\Prototype.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day22\Prototype\obj\Debug\net8.0\ref\Prototype.dll
