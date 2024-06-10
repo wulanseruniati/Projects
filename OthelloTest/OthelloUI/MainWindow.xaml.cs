@@ -16,6 +16,8 @@ using NLog;
 using NLog.Config;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using Microsoft.Extensions.Logging;
+using Serilog.Core;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace OthelloUI
 {
@@ -31,52 +33,50 @@ namespace OthelloUI
         private GameController _gameController;
         public bool PlayerStatus { get; set; } = false;
         private Position? _selectedPosition = null;
-        public MainWindow()
+        private readonly ILogger<MainWindow> _logger;
+        private readonly IServiceProvider _serviceProvider;
+        public MainWindow(ILogger<MainWindow> logger, IServiceProvider serviceProvider)
         {
-            //Logging
-            ILoggerFactory loggerFactory = LoggerFactory.Create(log =>
-            { log.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Information);
-                //log.AddNLog("nlog.config");
-            });
-            //Logger logger = LogManager.GetCurrentClassLogger();
-            //LogManager.Configuration = new XmlLoggingConfiguration("NLog.config");
-            Microsoft.Extensions.Logging.ILogger<MainWindow> logger =
-                    loggerFactory.CreateLogger<MainWindow>();
-                logger.LogDebug("Debug Message");
-
-            UserInput addUserMenu = new();
             InitializeComponent();
-            if(PlayerStatus == false)
+            _logger = logger;
+            _serviceProvider = serviceProvider;
+            _logger.LogInformation("MainWindow initialized");
+
+            if (PlayerStatus == false)
             {
+                var addUserMenu = _serviceProvider.GetRequiredService<UserInput>();
                 addUserMenu.ShowDialog();
                 PlayerStatus = true;
             }
+
             InitializeBoard();
-            //looking for saved data
+            // looking for saved data
             OthelloLogic.Color colorLoad = FileManager.LoadCurrentColorData("TurnFile.json");
-            if(colorLoad == OthelloLogic.Color.None)
+            if (colorLoad == OthelloLogic.Color.None)
             {
-                //start a new game
+                // start a new game
                 _gameController = new GameController();
             }
             else
             {
-                //load the game
+                // load the game
                 _gameController = new GameController(colorLoad);
             }
-            //write and read log
+
+            // write and read log
             Dictionary<OthelloLogic.Color, Player> playerColors = _gameController.LoadPlayerColor("PlayerFile.json");
-            //add player
+            // add player
             foreach (var playerColor in playerColors)
             {
-                //writing log games
+                // writing log games
                 if (_gameController.AddPlayer(playerColor.Value, playerColor.Key)) ;
             }
-            //log
+
+            // log
             Task.Run(() => _gameController.WriteLogMessage("log.txt", $"Last game started at {DateTime.Now}. Player black {playerColors[OthelloLogic.Color.Black].PlayerName}," +
                 $" player white {playerColors[OthelloLogic.Color.White].PlayerName} joined at {DateTime.Now}"));
 
-            //gameplay for debugging
+            // gameplay for debugging
             _gameController.WriteLogMessage("log2.txt", "Start logging at " + DateTime.Now);
 
             DrawBoard(_gameController);
@@ -219,6 +219,7 @@ namespace OthelloUI
             if (_gameController.IsGameOver())
             {
                 ShowGameOver();
+                _logger.LogInformation("Game ended");
             }
         }
         private Position ToTilePosition(Point point)

@@ -1,0 +1,6 @@
+Composite (seragam):
+Drawing : composite (bukan parent, tapi yang menyeragamkan)
+IShape : component
+Circle, Triangle : leaf
+
+composite : di void Draw pada public Drawing

@@ -1,0 +1,7 @@
+2024-06-08 10:40:26.272 +07:00 [INF] MainWindow initialized
+2024-06-08 10:40:26.379 +07:00 [INF] UserInput initialized
+2024-06-08 10:43:54.923 +07:00 [INF] MainWindow initialized
+2024-06-08 10:43:55.041 +07:00 [INF] UserInput initialized
+2024-06-08 10:46:39.440 +07:00 [INF] MainWindow initialized
+2024-06-08 10:46:39.604 +07:00 [INF] UserInput initialized
+2024-06-08 10:47:26.931 +07:00 [INF] Game ended

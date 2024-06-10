@@ -1,0 +1,15 @@
+D:\Bootcamp10\Projects\Day23\Adapter\bin\Debug\net8.0\Adapter.exe
+D:\Bootcamp10\Projects\Day23\Adapter\bin\Debug\net8.0\Adapter.deps.json
+D:\Bootcamp10\Projects\Day23\Adapter\bin\Debug\net8.0\Adapter.runtimeconfig.json
+D:\Bootcamp10\Projects\Day23\Adapter\bin\Debug\net8.0\Adapter.dll
+D:\Bootcamp10\Projects\Day23\Adapter\bin\Debug\net8.0\Adapter.pdb
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.GeneratedMSBuildEditorConfig.editorconfig
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.AssemblyInfoInputs.cache
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.AssemblyInfo.cs
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.csproj.CoreCompileInputs.cache
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.sourcelink.json
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.dll
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\refint\Adapter.dll
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.pdb
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\Adapter.genruntimeconfig.cache
+D:\Bootcamp10\Projects\Day23\Adapter\obj\Debug\net8.0\ref\Adapter.dll

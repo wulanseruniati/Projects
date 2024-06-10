@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj": {}
+    "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj": {}
   },
   "projects": {
-    "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj": {
+    "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj",
+        "projectUniqueName": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj",
         "projectName": "OthelloLogic",
-        "projectPath": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj",
-        "packagesPath": "C:\\Users\\Batch 10\\.nuget\\packages\\",
-        "outputPath": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloLogic\\obj\\",
+        "projectPath": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloLogic\\OthelloLogic.csproj",
+        "packagesPath": "C:\\Users\\linwu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloLogic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Batch 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\linwu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

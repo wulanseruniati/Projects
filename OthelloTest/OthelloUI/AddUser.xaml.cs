@@ -31,9 +31,7 @@ namespace OthelloUI
 
         private void Start_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow mainWindow = new MainWindow();
-            mainWindow.Show();
-            optionSelected?.Invoke(GameOverOption.Restart);
+            
         }
 
         private void ExitGame_Click(object sender, RoutedEventArgs e)

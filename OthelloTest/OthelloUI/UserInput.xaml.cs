@@ -1,4 +1,5 @@
-﻿using OthelloLogic;
+﻿using Microsoft.Extensions.Logging;
+using OthelloLogic;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -22,9 +23,12 @@ namespace OthelloUI
     {
         public event Action<string> GetPlayerBlack;
         public event Action<string> GetPlayerWhite;
-        public UserInput()
+        private readonly ILogger<UserInput> _logger;
+        public UserInput(ILogger<UserInput> logger)
         {
-            InitializeComponent();        
+            InitializeComponent();
+            _logger = logger;
+            _logger.LogInformation("UserInput initialized");
         }
 
         private void Start_Click(object sender, RoutedEventArgs e)

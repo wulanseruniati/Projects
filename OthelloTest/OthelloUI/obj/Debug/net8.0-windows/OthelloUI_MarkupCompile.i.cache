@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Bootcamp10\Projects\OthelloTest\OthelloUI\obj\Debug\net8.0-windows\
+C:\Users\linwu\source\repos\OthelloTest\OthelloUI\obj\Debug\net8.0-windows\
 OthelloUI
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-D:\Bootcamp10\Projects\OthelloTest\OthelloUI\App.xaml
+C:\Users\linwu\source\repos\OthelloTest\OthelloUI\App.xaml
 4-1875099969
 
 111498474074
-214-1194450227
+21680520558
 AddUser.xaml;GameOverMenu.xaml;MainWindow.xaml;UserInput.xaml;
 
-False
+True
 
