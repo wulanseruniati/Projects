@@ -28,7 +28,7 @@ namespace OthelloLogic
         //read a log file
         public static string ReadLog(string path)
         {
-            string? result;
+            string result;
             using (StreamReader stream = new(path))
             {
                 result = stream.ReadLine();

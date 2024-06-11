@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\",
+  "WorkspaceRootPath": "D:\\Bootcamp10\\Projects\\OthelloTest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|c:\\users\\linwu\\source\\repos\\othellotest\\othelloui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|d:\\bootcamp10\\projects\\othellotest\\othelloui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|solutionrelative:othelloui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|c:\\users\\linwu\\source\\repos\\othellotest\\othelloui\\userinput.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|d:\\bootcamp10\\projects\\othellotest\\othelloui\\userinput.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|solutionrelative:othelloui\\userinput.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|d:\\bootcamp10\\projects\\othellotest\\othelloui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CCF2CBD1-A5DC-45E8-9FEA-20F43F526525}|OthelloUI\\OthelloUI.csproj|solutionrelative:othelloui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,17 +22,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloUI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "OthelloUI\\App.xaml.cs",
+              "ToolTip": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloUI\\App.xaml.cs",
+              "RelativeToolTip": "OthelloUI\\App.xaml.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwBUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T06:22:57.332Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "UserInput.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloUI\\UserInput.xaml.cs",
+              "DocumentMoniker": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloUI\\UserInput.xaml.cs",
               "RelativeDocumentMoniker": "OthelloUI\\UserInput.xaml.cs",
-              "ToolTip": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloUI\\UserInput.xaml.cs",
+              "ToolTip": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloUI\\UserInput.xaml.cs",
               "RelativeToolTip": "OthelloUI\\UserInput.xaml.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAAAB8AAAAJAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAQwB4AAAA8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-08T03:36:51.145Z",
               "EditorCaption": ""
@@ -37,11 +58,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloUI\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloUI\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "OthelloUI\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\linwu\\source\\repos\\OthelloTest\\OthelloUI\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Bootcamp10\\Projects\\OthelloTest\\OthelloUI\\MainWindow.xaml.cs",
               "RelativeToolTip": "OthelloUI\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAKcAAAAAAAAAAAAAwLQAAABcAAAA",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAUwDkAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T07:47:32.278Z",
               "EditorCaption": ""

@@ -7,9 +7,9 @@ https://code.google.com/archive/p/northwindextended/downloads
 
 Create a new project :
 	-> install package:
-		->add package Microsoft.EntityFrameworkCore
-		->add package Microsoft.EntityFrameworkCore.Design
-		->add package Microsoft.EntityFrameworkCore.Sqlite
+		->dotnet add package Microsoft.EntityFrameworkCore
+		->add package Microsoft.EntityFrameworkCore.Design (nanti)
+		->dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 	-> on the terminal :
 		->sqlite3 Northwind --init Northwind.Sqlite3.sql
 		->dotnet tool install dotnet-ef --global

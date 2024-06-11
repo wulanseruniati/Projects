@@ -1,0 +1,58 @@
+Event : di class lain ga bisa assign, cuma bisa += sama -= , assign hanya bisa di kelas sendiri.
+Finalizer : ga pernah dibersihin di Gen 0, langsung masuk ke Gen 1.
+foreach : harus punya IEnumerable :
+-reset
+-movenext
+-current
+using : harus punya IDisposable -> setelah selesai method body, panggil dispose untuk hancurin resourcenya.
+yang dihapus akses ke resourcenya.
+using (StreamReader sr = new(path))
+{
+     result = sr.ReadToEnd();
+}
+yang dihapus si StreamReader nya.
+syntethic sugar : penamaan yang mempermudah (using, foreach)
+Unmanaged resource : kalau berhubungan sama internet, jalan terus di belakang jadi di-mark "alive"
+Kalau unmanaged resource nya di dalam kelas, kelasnya masih di-mark "alive" juga
+GC :
+-marking : menandai yang masih direferensikan
+-sweeping : menghapus yang sudah tidak diperlukan
+-compacting : mencegah memory fragmentation (melakukan defragmentation) 
+	-> tidak terjadi di LOH (karena akan sangat lamaa)
+kenapa butuh pemisahan ke LOH : supaya ga usah compacting yang lamaa
+
+process vs thread :
+-proses ga bisa sharing memory (buka chrome sm buka microsoft edge) - di-manage OS
+-thread sharing memory
+
+task manager :
+1. OS
+2. Process - bisa ubah proses lain tapi minta izin dulu ke OS
+3. Thread
+
+Cheat engine: mendaftarkan diri sebagai debugging tool untuk interrupt proses yang lain -> diizinkan sm OS.
+Jetbrains : mendaftarkan diri sebagai debugging tool
+
+Core : spt karyawan yang melakukan tugas masing2
+Running multiple threads on single core : gantian secara acak
+
+Thread:
+Foreground : masih bekerja walaupun setelah proses utama selesai.
+Background : akan berhenti bekerja saat proses utama selesai.
+
+Default size of ThreadPool : ditentukan dari core (kalau 5 core, ada 5 thread di dalam threadpool).
+Why use ILogger : untuk meng-abstraksi.
+structured logging : 
+selain menghasilkan external file, juga bisa ke selenium dll (software log lain).
+syntax : log.info("{Player} tp {location}", player, location}
+template : {player} to {location}
+data :  player = playerA
+	location = 7C
+Migrations in Entity Framework : track perubahan struktur tabel 
+	-> relationship, constraint, column addition & modification
+Benchmark : nanti
+NuGet : package manager
+var : implicit (segala tipe)
+
+CLR : 	IL ke JIT oleh CLR. 
+	butuh IL supaya mendukung multiplatform (IL jalan di runtime OS masing2).
