@@ -1,0 +1,24 @@
+EF :
+-SQLite
+-LinQ (di formulatrix)
+-Hybrid
+
+PSQL - postgre
+
+ORM (object relational mapping) - tabel di-convert dalam bentuk object
+
+serialization : dari database di convert ke object (utk gambar bisa sangat lama)
+solusi : lebih baik disimpan path-nya (string)
+
+system : lazy loading (saat request baru dikasih) bukan eager loading (belum butuh juga dikirim)
+kalau tiap ada perubahan langsung save changes jadi round trip time.
+
+Contains hanya untuk string
+
+humanizer
+
+default utk string : NVARCHAR
+fluent API : di Northwind.cs
+secara level, yang paling utama diterapkan adalah fluent API.
+
+Down : untuk batalin suatu versi

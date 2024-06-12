@@ -8,7 +8,7 @@ https://code.google.com/archive/p/northwindextended/downloads
 Create a new project :
 	-> install package:
 		->dotnet add package Microsoft.EntityFrameworkCore
-		->add package Microsoft.EntityFrameworkCore.Design (nanti)
+		->dotnet add package Microsoft.EntityFrameworkCore.Design (nanti)
 		->dotnet add package Microsoft.EntityFrameworkCore.Sqlite
 	-> on the terminal :
 		->sqlite3 Northwind --init Northwind.Sqlite3.sql
@@ -23,8 +23,8 @@ Create table in .NET SQLite :
 
 To commit :
 	-> on the terminal :
-		->dotnet ef migrations add "Initialize Database"
-		->dotnet ef database update
+		->dotnet-ef migrations add "Initialize Database"
+		->dotnet-ef database update
 
 Utk database lain:
 OnConfiguring : jadi postgre dll bisa di sini
