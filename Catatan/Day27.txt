@@ -1,0 +1,109 @@
+jika false => exception
+program yang buruk : nested if sampai 4 tingkat (sulit dipahami)
+solusi : early return
+
+*sebelum database update, cek dulu migration file - apa sesuai dengan keinginan?*
+*jangan sampai ada double create table - hapus2in aja yang udah diterapkan, gak apa apa*
+
+Benchmark : mengukur performance (seberapa cepat) suatu aplikasi, program
+pada C# : suatu method/ konsep butuh waktu berapa lama, berapa garbage collection yang diambil
+package : BenchmarkDotNet di nuget package
+
+[Benchmark] : menandakan method yang akan diukur performance nya
+[MemoryDiagnoser] : analisa memori alokasi, Gen 0 dll
+[Params(10,100,1000)] : menandakan method nya akan di-run 10x, 100x, 1000x
+
+Best practice :
+Pakai release version (sudah bentuk optimized) : dotnet build -c Release (utk compile : --c)
+Buka benchmark tool, jangan di-move ke window yang lain (ada prioritizing dr window)
+------------------------------------------------------------------------------------
+------------------------------------HTTP Request------------------------------------
+------------------------------------------------------------------------------------
+Request : (mandatory)
+-GET : minta item
+-POST : bawa payload
+-DELETE
+-PUT/PATCH : bawa payload
+
+Response :
+-Status Code
+	200-299 OK
+	300-399 Redirect (http ke https)
+	400-499 Client error (contoh request data yang tidak ada)
+	500-599 Server error (lagi maintenance)
+-Data : JSON (optional)
+
+Package : RateLimiter (untuk membatasi API request)
+-contoh per client akses berapa request
+
+------------------------------------------------------------------------------------
+-------------------------------------Web Socket-------------------------------------
+-True
+- ... (semi)
+-Manual (HTTP request yang dilempar terus menerus) : boros
+
+Contoh: komunikasi utk notifikasi
+
+------------------------------------------------------------------------------------
+---------------------------------Server vs Computer---------------------------------
+server 	: 
+-dibuat untuk kebutuhan running time 24x7
+-pendinginan maksimal
+-penyimpanan - kalau hard disk down masih tetep jalan (ada Raid 0, Raid 5 - min 4 hard disk)
+-PSU min. 2
+
+komputer: 
+-ditujukan untuk kebutuhan pemakaian biasa (ga 24x7)
+-pendinginan ya begitu
+-penyimpanan - kalau mati yaudah
+-Battery/PSU
+
+------------------------------------------------------------------------------------
+----------------------------------------API-----------------------------------------
+http://localhost:port/item
+
+-ssh:22 	-> terminal
+-http:80	-> halaman
+-https:443/8080 -> browser+SSL
+-ftp:21		-> transfer file
+
+www.facebook.com jadi IP address (ada banyak port utk beda2 service) 
+	-> di-convert oleh DNS (beda negara beda server jadi beda IP address)
+
+GET:
+http://localhost:port/item -> Request
+Status Code (cth 200) + JSON <- Response
+
+POST:
+http://localhost:port/item -> Request (ada payload berupa JSON)
+Status Code (cth 200) + JSON <- Response
+
+DELETE:
+http://localhost:port/item{id} -> Request
+Status Code (cth 200) + JSON <- Response
+
+PUT:
+http://localhost:port/item{id} -> Request (ada payload berupa JSON)
+Status Code (cth 200) + JSON <- Response
+
+Bikin project : APS.NET Core API
+Swagger : documentation API
+
+buat builder : bisa install sesuatu
+appsettings.json : kasih info logger
+Properties -> launchSettings.json : ada port yang default
+
+localhost:port/api/category (sesuaikan)
+CategoryController
+Penulisan :
+[Route("api/[controller]")]
+
+buat nandain API Get :
+[HttpGet]
+
+dependency injection : kalau ada class butuh db langsung dikasih ini:
+builder.Services.AddDbContext<Database>(Options => {
+    Options.UseSqlite("Data Source=Database.db");
+});
+
+Data seeding : ngasih data awal
