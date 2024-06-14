@@ -23,8 +23,8 @@ public class CategoryController : ControllerBase
         _db.SaveChanges();
         return Ok();
     }
-    /*[HttpPut("{id}")]
-    public async Task<IActionResult> PutTodoItem(int id, Category category)
+    [HttpPut("{id}")]
+    public async Task<IActionResult> PutCategory(int id, Category category)
     {
         if (id != category.CategoryId)
         {
@@ -39,7 +39,7 @@ public class CategoryController : ControllerBase
         }
         catch (DbUpdateConcurrencyException)
         {
-            if (!_db.Categories(id))
+            if (!CategoryExists(id))
             {
                 return NotFound();
             }
@@ -50,5 +50,10 @@ public class CategoryController : ControllerBase
         }
 
         return NoContent();
-    }*/
+    }
+
+    private bool CategoryExists(int id)
+    {
+        return _db.Categories.Any(c => c.CategoryId == id);
+    }
 }
