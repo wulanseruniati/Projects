@@ -1,0 +1,80 @@
+Processor :
+-RISC (reduced instruction set) : ARM (mac book), handphone
+-CISC (complex instruction set) : architecture x86, x64
+
+Open project :
+-issue
+-refactoring
+-hapus kode yang ga dipakai
+
+1. masuk ke work packages
+2. work packages
+
+Asignee : ditugaskan ke siapa
+
+TYPE:
+-EPIC: continuous development (yang berkelanjutan)
+-USER STORY: add new feature (kalau fiturnya kecil atau bisa dikerjain satu orang, gausah buat task)
+-TASK: part of user story 
+-TODO: GA ADA HUBUNGAN SAMA DEVELOPMENT (MISALNYA BERSIHIN DATABASE)
+-ISSUE: 
+-DOCS: TECHNICAL WRITER
+-TEST: SQA
+
+STATUS:
+-NEW: (DEFAULT) 
+	-> KALAU UDAH ADA ASSIGNEE JADI IN PROGESS 
+	-> GANTI JADI PENDING REVIEW (MERGE REQUEST) 
+	-> GANTI JADI DEVELOPED
+	-> TESTING BY SQA (SEKARANG GA ADA) -> DONE
+-IN PROGRESS/ONGOING:
+-DONE:
+-DEVELOPED:
+-SOLVED: (ISSUE)
+-HACKED: (ISSUE)
+-ON HOLD: 
+-PENDING REVIEW:
+
+VERSION SET KE BATCH10
+
+WITH GITLAB:
+-SALAH SATU ID ADA YANG UDAH SETENGAH DIKERJAIN, LANJUT KE YANG LAIN AJA
+
+GITLAB:
+-MAIN:
+-DEVELOPMENT
+-FEAT/OP-<NO OP>: <PENJELASAN>
+	-COMMIT : feat : <penjelasan>
+		  fix : <penjelasan>
+		  refactor : <penjelasan> misal : restructure
+		  chore : <penjelasan> misal : remove unnecessary comments, unnecessary imports
+	-CREATE MERGE REQUEST : 
+		  title (SOP)
+		  description (before, after) - screen2gif upload ke imgbb.com (HTML image) / link G-Drive
+		  target (dr branch mana ke mana) : feat/op .. TO development
+		  delete source branch (branch nya dihapus) / squash commit (disimpulkan ke 1 commit) 
+		  assignee (Kinara) / reviewer (Kinara)
+
+SOURCETREE :
+-double click awal branch
+
+changes: 
+discard hunk untuk undo changes
+
+BRANCH : bikin branch baru
+
+Dto :
+Data Transfer Object
+Class baru yang isinya hanya properties2 yg dibutuhkan
+Cuma data-data yang butuh ditampilkan
+
+SaveChanges() - return nya berapa entity yang berubah
+
+Website (back-end process) :
+1. Filtering
+2. Pagination
+[FromQuery] optional
+[Authorize] buat cek login
+
+nuget package -> Automapper (.map)
+-> secara coding lebih mudah tapi performance jadi korban :(

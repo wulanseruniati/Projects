@@ -14,46 +14,51 @@ public class CategoryController : ControllerBase
     [HttpGet]
     public IActionResult GetCategory()
     {
-        return Ok(_db.Categories.ToList());
+        return Ok(_db.Categories.Select(x => CategoryToDTO(x)).ToList());
     }
     [HttpPost]
-    public IActionResult PostCategory(Category category)
+    public IActionResult CreateCategory(CategoryDTO category)
     {
-        _db.Categories.Add(category);
+        Category categoryNew = new() {
+            CategoryName = category.CategoryName,
+            Description = category.Description
+        };
+        _db.Categories.Add(categoryNew);
         _db.SaveChanges();
         return Ok();
     }
+
     [HttpPut("{id}")]
-    public async Task<IActionResult> PutCategory(int id, Category category)
+    public IActionResult UpdateCategory(int id, CategoryDTO category)
     {
-        if (id != category.CategoryId)
+        Category category1 = _db.Categories.Find(id);
+        if(category1 == null)
         {
-            return BadRequest();
+            return NotFound($"Id {id} not found.");
         }
-
-        _db.Entry(category).State = EntityState.Modified;
-
-        try
+        category1.CategoryName = category.CategoryName;
+        category1.Description = category.Description;
+        _db.SaveChanges();
+        return Ok(CategoryToDTO(category1));
+    }
+    
+    [HttpDelete("{id}")]
+    public IActionResult DeleteCategory(int id)
+    {
+        Category category1 = _db.Categories.Find(id);
+        if(category1 == null)
         {
-            await _db.SaveChangesAsync();
+            return NotFound($"Id {id} not found.");
         }
-        catch (DbUpdateConcurrencyException)
-        {
-            if (!CategoryExists(id))
-            {
-                return NotFound();
-            }
-            else
-            {
-                throw;
-            }
-        }
-
-        return NoContent();
+        _db.Categories.Remove(category1);
+        _db.SaveChanges();
+        return Ok();
     }
 
-    private bool CategoryExists(int id)
-    {
-        return _db.Categories.Any(c => c.CategoryId == id);
-    }
+    private static CategoryDTO CategoryToDTO(Category category) =>
+       new CategoryDTO
+       {
+           CategoryName = category.CategoryName,
+           Description = category.Description
+       };
 }
