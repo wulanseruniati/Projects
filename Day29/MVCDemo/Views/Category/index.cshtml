@@ -1,0 +1,25 @@
+@model List<Category>
+    <table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Category Id</th>
+            <th>Category Name</th>
+            <th>Category Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var i in Model) {            
+            <tr>
+                <td>
+                    @i.CategoryId
+                </td>
+                <td>
+                    @i.CategoryName
+                </td>
+                <td>
+                    @i.Description
+                </td>
+            </tr>
+        }
+    </tbody>
+</Category>

@@ -1,28 +1,25 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-[Route("api/[controller]")]
 [ApiController]
-public class CategoryController : ControllerBase
+public class CategoryController : APIBaseController
 {
-    private readonly Database _db;
-    public CategoryController(Database db)
-    {
-        _db = db;
+    public CategoryController(Database db, IMapper map) : base(db, map) {
+        //udah di bapaknya
     }
-
     [HttpGet]
     public IActionResult GetCategory()
     {
-        return Ok(_db.Categories.Select(x => CategoryToDTO(x)).ToList());
+        var categories = _db.Categories.ToList();
+        IEnumerable<CategoryDTO> categoryDTOs = _map.Map<IEnumerable<CategoryDTO>>(categories);
+        return Ok(categoryDTOs);
     }
+
     [HttpPost]
     public IActionResult CreateCategory(CategoryDTO category)
     {
-        Category categoryNew = new() {
-            CategoryName = category.CategoryName,
-            Description = category.Description
-        };
+        Category categoryNew = _map.Map<Category>(category);
         _db.Categories.Add(categoryNew);
         _db.SaveChanges();
         return Ok();
@@ -31,7 +28,12 @@ public class CategoryController : ControllerBase
     [HttpPut("{id}")]
     public IActionResult UpdateCategory(int id, CategoryDTO category)
     {
-        Category category1 = _db.Categories.Find(id);
+        var categories = _db.Categories
+                          .Where(x => x.CategoryId == id)    // Filter by id
+                          .Select(x => x)    // Convert to DTO
+                          .FirstOrDefault();
+        Category category1 = _map.Map<Category>(categories);
+        
         if(category1 == null)
         {
             return NotFound($"Id {id} not found.");
@@ -45,7 +47,10 @@ public class CategoryController : ControllerBase
     [HttpDelete("{id}")]
     public IActionResult DeleteCategory(int id)
     {
-        Category category1 = _db.Categories.Find(id);
+        var category1 = _db.Categories
+                          .Where(x => x.CategoryId == id)    // Filter by id
+                          .Select(x => x)    // Convert to DTO
+                          .FirstOrDefault(); 
         if(category1 == null)
         {
             return NotFound($"Id {id} not found.");

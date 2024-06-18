@@ -127,3 +127,6 @@ D:\Bootcamp10\Projects\Day27\WebAPIDemo\bin\Debug\net8.0\runtimes\win-arm\native
 D:\Bootcamp10\Projects\Day27\WebAPIDemo\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 D:\Bootcamp10\Projects\Day27\WebAPIDemo\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 D:\Bootcamp10\Projects\Day27\WebAPIDemo\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
+D:\Bootcamp10\Projects\Day27\WebAPIDemo\bin\Debug\net8.0\Npgsql.dll
+D:\Bootcamp10\Projects\Day27\WebAPIDemo\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Bootcamp10\Projects\Day27\WebAPIDemo\bin\Debug\net8.0\AutoMapper.dll

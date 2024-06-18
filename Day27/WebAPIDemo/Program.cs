@@ -1,51 +1,33 @@
+using AutoMapper;
 using Microsoft.EntityFrameworkCore;
 
-var builder = WebApplication.CreateBuilder(args); // buat builder 
+var builder = WebApplication.CreateBuilder(args); // create builder 
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer(); //cari endpoint (ujung backend)
-builder.Services.AddSwaggerGen(); //dokumentasi
+builder.Services.AddEndpointsApiExplorer(); // discover endpoints (backend)
+builder.Services.AddSwaggerGen(); // documentation
 builder.Services.AddControllers();
-builder.Services.AddDbContext<Database>(Options => {
-    Options.UseSqlite("Data Source=Database.db");
+builder.Services.AddAutoMapper(typeof(Mapper));
+
+// Retrieve the connection string from configuration
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<Database>(options => {
+    options.UseNpgsql(connectionString);
 });
 
-var app = builder.Build(); //aplikasi sdh di-install, mulai akan dipakai
+var app = builder.Build(); // application is set up, ready to be used
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment()) //jika dalam development
+if (app.Environment.IsDevelopment()) // if in development
 {
-    app.UseSwagger(); //swagger nyala
+    app.UseSwagger(); // enable Swagger
     app.UseSwaggerUI();
 }
-//kalau udah release, ga akan nyala
-app.UseHttpsRedirection(); //utk redirect dr http ke https
 
-/*var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};//data
-//bikin endpoint weatherforecast yang ngasih data random
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast =  Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-})
-.WithName("GetWeatherForecast") //ngasih nama method
-.WithOpenApi();
-*/
+// if released, it won't be enabled
+app.UseHttpsRedirection(); // redirect from http to https
+
 app.MapControllers();
 app.Run();
-
-/*record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}*/

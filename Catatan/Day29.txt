@@ -1,0 +1,74 @@
+Startup.cs : builder, service dll adanya di sini (.NET5 - bukan long term support)
+
+nama kelas yang inherit DbContext beda sama nama database gapapa karena yang diliat strukturnya
+Separation of concern : implementasi database sendiri diganti di appsettings.json
+
+database scheme : cuma bisa pilih satu
+
+SQLite (serverless) dan Postgre (server) 
+- harus ditentukan dari awal perkembangannya gimana
+- kalau salah harus migration (dari struktur maupun data)
+- strategi: cloning, backup dan lalu pindahin semua - yang di copy duluan yang ga ada dependency
+
+Serverless : 
+-aplikasi offline (misal aplikasi finance offline di HP)
+-kapasitas sama tp response time beda
+
+Server : 
+-pertambahan datanya besar (program dan database bisa di-deploy di server yang berbeda)
+-ada password, pengaturan user
+-postgre - postgre
+
+AutoMapper: berlaku juga untuk collections of category
+//source,destination
+CreateMap<CategoryDTO,Category>().ReverseMap(); //untuk bolak balik
+
+Dependency (Kebutuhan) Injection:
+ada bnyk controller. misal:
+public class EmployeeController : ControllerBase
+{
+    private readonly IMapper _map;
+    private readonly Database _db;
+    public CategoryController(Database db, IMapper map)
+    {
+        _db = db;
+        _map = map;
+    }
+} 
+
+si database diisi sama : 
+builder.Services.AddDbContext<Database>(options => {
+    options.UseNpgsql(connectionString);
+});
+*jadi ga usah bikin satu2 - kebutuhan udah di-declare sekali untuk semua*
+
+ada Container -> kalau butuh DbContext, kasih DbContext. Map juga sama
+
+DbContext : udah include using, controller nya dibuat saat dibutuhkan
+
+ga semua controller butuh database - contoh untuk versioning
+
+Properties: launchSettings.json : untuk endpoint
+
+wwwroot: static files (icon,css) -> html, css, js (logic)
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+
+controller=Home -> kalau ga set controller apa2, ke HomeController
+action=Index -> kalau ga set action apa2, ke method Index
+
+Folder Controllers:
+-Controller apa2 saja.
+-Di dalam tiap file controller akan ada method yang isinya nama2 View.
+
+Folder Views:
+-Di dalamnya ada folder dengan nama controller.
+
+Command dotnet watch run (debugger tool) untuk view ga perlu build ulang. kalau untuk back end minta build ulang.
+
+Kenapa ga pake MVC aja malah web API?
+-Di MVC, front end sm back end melekat bgt -> gabisa cuma ganti front end aja
+-Di MVC harus bareng, kalau Web API harus backend ready dulu
+-Di Web API proses development back end sm front end bisa dipisah
