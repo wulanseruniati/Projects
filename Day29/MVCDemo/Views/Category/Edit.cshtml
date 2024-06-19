@@ -1,0 +1,20 @@
+@model Category
+<form method="post">
+    <div class="row" style="display:none;">
+        <div class="col-md-2 offset-md-2"><input asp-for="CategoryId" /></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"><label>Category Name</label></div>
+        <div class="col-md-4"><input asp-for="CategoryName" class="form-control" /></div>
+    </div>
+    <div class="row">
+        <div class="col-md-2"><label>Description</label></div>
+        <div class="col-md-7"><input asp-for="Description" class="form-control" /></div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-2">
+            <button type="submit" class="btn btn-primary">Save</button>
+        </div>
+    </div>
+</form>

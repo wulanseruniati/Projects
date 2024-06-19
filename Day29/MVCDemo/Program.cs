@@ -1,3 +1,4 @@
+using AspNetCoreHero.ToastNotification;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -6,7 +7,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 // Retrieve the connection string from configuration
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-
+builder.Services.AddNotyf(config=>
+{
+    config.DurationInSeconds = 10;
+    config.IsDismissable = true;
+    config.Position = NotyfPosition.BottomRight; }
+);
 builder.Services.AddDbContext<Database>(options => {
     options.UseNpgsql(connectionString);
 });

@@ -1,4 +1,5 @@
 using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 
 public class ItemModule
 {
@@ -13,13 +14,29 @@ public class ItemModule
     }
     public IEnumerable<Item> Get()
     {
-        return _db.Items.ToList();
+        return _db.Items.Include(i => i.Components).ToList();
     }
-    public ItemDTO? GetById(Guid id)
+    public Item? GetById(Guid id)
     {
         var item = _db.Items
                           .Where(x => x.ItemId == id)    // Filter by id
                           .Select(x => x)
+                          .Include(i => i.Components)
+                          .FirstOrDefault();
+
+        if (item == null)
+        {
+            return null;    
+        }
+
+        return item;
+    }
+    /*public ItemDTO? GetById(Guid id)
+    {
+        var item = _db.Items
+                          .Where(x => x.ItemId == id)    // Filter by id
+                          .Select(x => x)
+                          .Include(i => i.Components)
                           .FirstOrDefault();
         ItemDTO itemDTO = _map.Map<ItemDTO>(item);
 
@@ -29,7 +46,7 @@ public class ItemModule
         }
 
         return itemDTO;
-    }
+    }*/
     public bool Create(ItemDTO itemDTO)
     {
         _db.Items.Add(_map.Map<Item>(itemDTO));

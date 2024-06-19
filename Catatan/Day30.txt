@@ -1,0 +1,15 @@
+public async Task<IActionResult> Create(Category category)
+    {
+        _context.Categories.Add(category);
+        await _context.SaveChangesAsync();
+        return RedirectToAction("Index");
+    }
+
+pakai async:
+-supaya tidak menyebabkan thread blocking & web tetap responsif
+
+front end MVC :
+@model List<Category>
+<!--best practice : model paling atas-->
+
+Include : EF disuruh isi table yang ada relation (bisa nested).
